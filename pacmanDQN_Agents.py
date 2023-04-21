@@ -23,8 +23,9 @@ from time import gmtime, strftime
 from collections import deque
 
 # model parameters
-model_trained = True
-
+#model_trained = True
+model_trained = False
+trained_from_previous = False
 GAMMA = 0.95  # discount factor
 LR = 0.01     # learning rate
 
@@ -38,7 +39,7 @@ epsilon_step = 7500
     
 class PacmanDQN(PacmanUtils):
     def __init__(self, args):        
-		
+        self.num_training = args['numTraining']
         print("Started Pacman DQN algorithm")
         if(model_trained == True):
             print("Model has been trained")
@@ -50,11 +51,16 @@ class PacmanDQN(PacmanUtils):
 		
 		# init model
         if(model_trained == True):
-            self.policy_net = torch.load('pacman_policy_net.pt').to(self.device)
-            self.target_net = torch.load('pacman_target_net.pt').to(self.device)
+            self.policy_net = torch.load('pacman_policy_net_2.pt').to(self.device)
+            self.target_net = torch.load('pacman_target_net_2.pt').to(self.device)
         else:
-            self.policy_net = DQN().to(self.device)
-            self.target_net = DQN().to(self.device)
+            if (trained_from_previous==False):
+                self.policy_net = DQN().to(self.device)
+                self.target_net = DQN().to(self.device)
+            else:
+                self.policy_net = torch.load('pacman_policy_net_2.pt').to(self.device)
+                self.target_net = torch.load('pacman_target_net_2.pt').to(self.device)
+
 		
         self.policy_net.double()
         self.target_net.double()        

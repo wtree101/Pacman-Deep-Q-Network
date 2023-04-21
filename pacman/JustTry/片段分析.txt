@@ -1,0 +1,48 @@
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.04742587317756678, 'Capsule_attract': 0.0003842441724909268, 'divides_attract': 0.018571801670394794, 'stop': 0}
+reward: 0.0
+nextV: 1.3468084542367726
+Qnew 1.2121276088130954
+Qold 1.2810403844798106
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.2689414213699951, 'Capsule_attract': 0.000416264520198504, 'divides_attract': 0.019500391753914537, 'stop': 0}
+reward: 0.0
+nextV: 1.9357995645945145
+Qnew 1.7422196081350632
+Qold 1.3468084542367726
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'divides_attract': 0.021133429487000976, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: -3.3355223219769035
+Qnew -2.2019700897792127
+Qold 1.9357995645945145
+Pacman: (x,y)=(40.0, 8.0), South
+North
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.026223776223776224, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'Capsule_attract': 0.0030758018917411978, 'divides_attract': 0.14905809167668882, 'stop': 0}
+reward: 0.0
+nextV: -3.5895092299677684
+Qnew -3.2305583069709916
+Qold -3.3355223219769035
+Pacman: (x,y)=(40.0, 9.0), North
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.027972027972027972, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'Capsule_attract': 0.0033124020372597516, 'divides_attract': 0.15615609604224542, 'stop': 0}
+reward: 0.0
+nextV: -16.386393477638585
+Qnew -14.747754129874727
+Qold -3.5895092299677684
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.027972027972027972, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.009004042266433903, 'divides_attract': 0.42447627827474116, 'stop': 1}
+reward: 0.0
+nextV: -0.6741767219145633
+Qnew -0.606759049723107
+Qold -16.386393477638585

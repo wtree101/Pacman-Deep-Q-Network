@@ -5,13 +5,14 @@ Important files:
 	DQN.py
 	pacmanDQN_Agents.py 
 
-
+cd 
 To test the DQN network, launch:
 	python3 pacman.py -p PacmanDQN -n 200 -x 100 -l smallGrid
 
 To train the DQN network, launch:
 	python3 pacman.py -p PacmanDQN -n 3000 -x 2900 -l smallGrid
-
+	python3 pacman.py -p PacmanDQN -n 3000 -x 2900 -l mediumClassic
+	cd /home/twubi/Pacman-Deep-Q-Network/pacman/reinforcement/reinforcement
 Where:
 	-n = number of episodes
 	-x = episodes used for training (graphics = off)
@@ -32,3 +33,5 @@ http://ai.berkeley.edu/reinforcement.html
 I'd like to cite:
 https://github.com/tychovdo/PacmanDQN
 His implementation in Tensorflow helped me configure the Neural Network architecture.
+
+/home/twubi/Pacman-Deep-Q-Network/pacman/reinforcement/reinforcement

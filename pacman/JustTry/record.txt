@@ -1,0 +1,1853 @@
+Microsoft Windows [Version 10.0.18362.959]
+(c) 2019 Microsoft Corporation。保留所有权利。
+
+C:\Users\13170>D:
+
+D:\>cd D:\WORKPLACE\Vscode_related\python\workplace\pacman\JustTry
+
+D:\WORKPLACE\Vscode_related\python\workplace\pacman\JustTry>python capture.py -r RLTeam_9 -b myTeam -l strategicCapture  -n 210 -x 200
+capture.py:61: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import sys, util, types, time, random, imp
+
+Red team RLTeam_9 with {'numTraining': 200}:
+Loading Team: RLTeam_9.py
+Arguments: {'numTraining': 200}
+create 200
+cap 200
+cap 200
+
+Blue team myTeam with {'numTraining': 200}:
+Loading Team: myTeam.py
+Arguments: {'numTraining': 200}
+cap 0
+cap 0
+Playing 200 training games
+Red team starts
+Red team starts
+Red team starts
+Red team starts
+Blue team starts
+Red team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.5665201031549782, 'distanceToFood': -39.48018372303881, 'check_died': -1.6013360975143485, 'divides_attract': -30.629276970771404, 'Capsule_attract': -3.626870057910132, 'stop': -0.038105256432542096, 'CornerAvoid': 0.5620928211495898, 'bias': 1.748108331401341, 'defendersAvoid': -0.19028721326009662}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.2689414213699951, 'Capsule_attract': 0.002839201746222644, 'divides_attract': 0.023660014551855367, 'stop': 0}
+reward: 0.0
+nextV: 1.2921781066025835
+Qnew 1.162960295942325
+Qold 1.0004966446871146
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.5665201031549782, 'distanceToFood': -39.480013306621416, 'check_died': -1.6013360975143485, 'divides_attract': -30.62812380306555, 'Capsule_attract': -3.6267316777854295, 'stop': -0.038105256432542096, 'CornerAvoid': 0.5752007827364505, 'bias': 1.7968474267779042, 'defendersAvoid': -0.18369109398261316}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'Capsule_attract': 0.0030758018917411978, 'divides_attract': 0.024843015279448138, 'stop': 0}
+reward: 0.0
+nextV: 1.9298753786263996
+Qnew 1.7368878407637596
+Qold 1.3514219491398398
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.5665201031549782, 'distanceToFood': -39.47981113919574, 'check_died': -1.6013360975143485, 'divides_attract': -30.625250962554954, 'Capsule_attract': -3.626375992769832, 'stop': -0.038105256432542096, 'CornerAvoid': 0.6597402267887296, 'bias': 1.91248719426508, 'defendersAvoid': -0.16804095329632018}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'divides_attract': 0.031231219208449082, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: -1.0004012124236659
+Qnew -0.10036109118129921
+Qold 2.128252971747939
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': -0.10206411572379315, 'distanceToFood': -39.47981113919574, 'check_died': -1.6013360975143485, 'divides_attract': -30.646131662854067, 'Capsule_attract': -3.626375992769832, 'stop': -0.038105256432542096, 'CornerAvoid': 0.022864198283025217, 'bias': 1.2439029753863087, 'defendersAvoid': -0.25852398792580816}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.02097902097902098, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.009004042266433903, 'divides_attract': 0.08489525565494824, 'stop': 1}
+reward: 0.0
+nextV: -1.0337784364914386
+Qnew -0.9304005928422948
+Qold -2.329465994444755
+Red team starts
+Red team starts
+Blue team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.5921678948417956, 'distanceToFood': -39.45820315015218, 'check_died': -1.6562605351902908, 'divides_attract': -30.558210822552862, 'Capsule_attract': -3.6293277679683826, 'stop': 0.027307454785945363, 'CornerAvoid': 0.43503465354458726, 'bias': 2.1852302830707546, 'defendersAvoid': -0.17008870391628136}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0024787521766663585, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.0066928509242848554, 'Capsule_attract': 5.200179391607745e-05, 'divides_attract': 0.0008666965652679575, 'stop': 0}
+reward: 0.0
+nextV: 2.108444310629552
+Qnew 1.8975998795665967
+Qold 2.0230811242132307
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.5921678948417956, 'distanceToFood': -39.458334773835375, 'check_died': -1.6562605351902908, 'divides_attract': -30.558243448801985, 'Capsule_attract': -3.62932972554333, 'stop': 0.027307454785945363, 'CornerAvoid': 0.43478270536532315, 'bias': 2.1475859096767644, 'defendersAvoid': -0.17018201498877095}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0024787521766663585, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.04742587317756678, 'Capsule_attract': 5.633527674241724e-05, 'divides_attract': 0.0009100313935313555, 'stop': 0}
+reward: 0.0
+nextV: 2.824216527434903
+Qnew 2.541794874691413
+Qold 2.0707874971656146
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.5921678948417956, 'distanceToFood': -39.458087741994014, 'check_died': -1.6562605351902908, 'divides_attract': -30.558114859351946, 'Capsule_attract': -3.629321765244042, 'stop': 0.027307454785945363, 'CornerAvoid': 0.4414840862109942, 'bias': 2.288888122934504, 'defendersAvoid': -0.16983176182009055}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0024787521766663585, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.2689414213699951, 'divides_attract': 0.0010487028439742285, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 1.7582569680668252
+Qnew 2.3824312712601428
+Qold 2.9673220226253454
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.41670066943223477, 'distanceToFood': -39.458087741994014, 'check_died': -1.6562605351902908, 'divides_attract': -30.55829887233026, 'Capsule_attract': -3.629321765244042, 'stop': 0.027307454785945363, 'CornerAvoid': 0.3942936812054976, 'bias': 2.1134208975249433, 'defendersAvoid': -0.1702667015870081}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 0, 'distanceToFood': 0.017482517482517484, 'inTunnel': 1, 'CornerAvoid': 0.5, 'Capsule_attract': 0.00016491478669090304, 'divides_attract': 0.002850669884228467, 'stop': 1}
+reward: 0.0
+nextV: 1.497613968261421
+Qnew 1.347852571435279
+Qold 1.5591910849931634
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.41670066943223477, 'distanceToFood': -39.45919616077141, 'check_died': -1.6562605351902908, 'divides_attract': -30.55847960923105, 'Capsule_attract': -3.629332221097807, 'stop': -0.036094099281419975, 'CornerAvoid': 0.36259290417181494, 'bias': 2.050019343457578, 'defendersAvoid': -0.17069389789797365}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.017482517482517484, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'Capsule_attract': 0.00044828486790608133, 'divides_attract': 0.007748924145233691, 'stop': 1}
+reward: 0.0
+nextV: 0.986852532265004
+Qnew 0.8881672790385037
+Qold 1.347607127599224
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.41670066943223477, 'distanceToFood': -39.4616058103268, 'check_died': -1.6562605351902908, 'divides_attract': -30.55954765859179, 'Capsule_attract': -3.629394009077354, 'stop': -0.1739260538496361, 'CornerAvoid': 0.2618296713753795, 'bias': 1.9121873888893621, 'defendersAvoid': -0.17321837820517352}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.017482517482517484, 'inTunnel': 1, 'CornerAvoid': 0.8807970779778823, 'Capsule_attract': 0.0012185646104022644, 'divides_attract': 0.021063759694096282, 'stop': 1}
+reward: 0.0
+nextV: -0.4874344865937558
+Qnew -0.43869103793438025
+Qold 0.6222462764720184
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.41670066943223477, 'distanceToFood': -39.46717016687089, 'check_died': -1.6562605351902908, 'divides_attract': -30.566251857184135, 'Capsule_attract': -3.6297818552769114, 'stop': -0.4922072481715557, 'CornerAvoid': -0.018511474558677854, 'bias': 1.5939061945674426, 'defendersAvoid': -0.18906466578708434}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.017482517482517484, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'Capsule_attract': 0.0033124020372597516, 'divides_attract': 0.05725723521548999, 'stop': 1}
+reward: 0.0
+nextV: -4.466072019513852
+Qnew -4.019464817562468
+Qold -1.3936695868951123
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.41670066943223477, 'distanceToFood': -39.480941820178586, 'check_died': -1.6562605351902908, 'divides_attract': -30.611355589729143, 'Capsule_attract': -3.6323911621183584, 'stop': -1.2799458173717624, 'CornerAvoid': -0.7688908542789178, 'bias': 0.806167625367236, 'defendersAvoid': -0.2956734881661983}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.017482517482517484, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.009004042266433903, 'divides_attract': 0.15564130203407175, 'stop': 1}
+reward: 0.0
+nextV: -1.3335337669851
+Qnew -1.20018039028659
+Qold -6.8249355116991115
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.41670066943223477, 'distanceToFood': -39.451441356255096, 'check_died': -1.6562605351902908, 'divides_attract': -30.348722326513307, 'Capsule_attract': -3.6171975022628966, 'stop': 0.407480719051994, 'CornerAvoid': 0.8881852741651161, 'bias': 2.4935941617909925, 'defendersAvoid': 0.32509604307123563}
+{'bias': 1.0, 'check_died': 1, 'defendersAvoid': 1.0, 'eat_food': 0, 'distanceToFood': 0.017482517482517484, 'inTunnel': 1, 'CornerAvoid': 0.9933071490757153, 'Capsule_attract': 0.024475524475524476, 'divides_attract': 0.4230769230769231, 'stop': 1}
+reward: -8.8
+nextV: 0.7629722898571334
+Qnew -8.113324939128582
+Qold -11.165936209181938
+Red team starts
+Pacman: (x,y)=(38.0, 6.0), South
+East
+{'eat_food': 0.7651287200378349, 'distanceToFood': -39.480350094499435, 'check_died': -1.0170779626865927, 'divides_attract': -29.936290750387588, 'Capsule_attract': -3.655645897904691, 'stop': 0.11257721679334537, 'CornerAvoid': 1.7978394535330453, 'bias': 2.6121852787946493, 'defendersAvoid': -0.052442355062452914}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.005244755244755245, 'inTunnel': 1, 'CornerAvoid': 0.2689414213699951, 'Capsule_attract': 0.000709800436555661, 'divides_attract': 0.04944943041337772, 'stop': 0}
+reward: 0.0
+nextV: 2.083352951801438
+Qnew 1.8750176566212944
+Qold 1.3986093972738511
+Pacman: (x,y)=(39.0, 6.0), East
+East
+{'eat_food': 0.7651287200378349, 'distanceToFood': -39.47960050108438, 'check_died': -1.0170779626865927, 'divides_attract': -29.9292233152669, 'Capsule_attract': -3.6555444514675517, 'stop': 0.11257721679334537, 'CornerAvoid': 1.8362772278594373, 'bias': 2.7551077565988824, 'defendersAvoid': -0.03309990104793855}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.006993006993006993, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'Capsule_attract': 0.00047320029103710735, 'divides_attract': 0.05205203201408181, 'stop': 0}
+reward: 0.0
+nextV: 2.518081309045884
+Qnew 2.2662731781412955
+Qold 2.2573665750386067
+Pacman: (x,y)=(40.0, 6.0), East
+West
+{'eat_food': 0.7651287200378349, 'distanceToFood': -39.479581815903046, 'check_died': -1.0170779626865927, 'divides_attract': -29.929084233229947, 'Capsule_attract': -3.6555431870853976, 'stop': 0.11257721679334537, 'CornerAvoid': 1.8382306024408392, 'bias': 2.757779737529689, 'defendersAvoid': -0.032738287751865006}
+{'bias': 1.0, 'check_died': 1, 'defendersAvoid': 1.0, 'eat_food': 0, 'distanceToFood': 0.005244755244755245, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'Capsule_attract': 0.005244755244755245, 'divides_attract': 0.36538461538461536, 'stop': 0}
+reward: -8.8
+nextV: 0.8687697643552721
+Qnew -8.018107212080256
+Qold -8.11004236595927
+Blue team starts
+Blue team starts
+Blue team starts
+Blue team starts
+Red team starts
+Red team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.6336576525566154, 'distanceToFood': -39.68747611089283, 'check_died': -0.3851585521197014, 'divides_attract': -29.352602671830372, 'Capsule_attract': -3.6955481498759704, 'stop': -0.09710472203429238, 'CornerAvoid': 1.858393597317116, 'bias': 1.8940472625904834, 'defendersAvoid': 1.0693037052598404}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 6.14421235332821e-06, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 1.670142184809518e-05, 'Capsule_attract': 1.2889955986003237e-07, 'divides_attract': 1.0741629988336033e-06, 'stop': 0}
+reward: 0.0
+nextV: 1.8248658268104714
+Qnew 1.6423792441294243
+Qold 1.755285465611572
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.6336576525566154, 'distanceToFood': -39.68759454399229, 'check_died': -0.3851585521197014, 'divides_attract': -29.352602708214278, 'Capsule_attract': -3.695548154242039, 'stop': -0.09710472203429238, 'CornerAvoid': 1.8583930316087858, 'bias': 1.8601753961458392, 'defendersAvoid': 1.0693034971439002}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 6.14421235332821e-06, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.00012339457598623172, 'Capsule_attract': 1.396411898483684e-07, 'divides_attract': 1.1278711487752833e-06, 'stop': 0}
+reward: 0.0
+nextV: 2.495491091008056
+Qnew 2.2459419819072504
+Qold 1.7909937532438283
+Pacman: (x,y)=(40.0, 9.0), South
+North
+{'eat_food': 0.6336576525566154, 'distanceToFood': -39.68735593478145, 'check_died': -0.3851585521197014, 'divides_attract': -29.352602554277382, 'Capsule_attract': -3.6955481351831856, 'stop': -0.09710472203429238, 'CornerAvoid': 1.8584098730519172, 'bias': 1.9966598647448657, 'defendersAvoid': 1.0693043357334582}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 4.5399929762484854e-05, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.00012339457598623172, 'Capsule_attract': 9.524460789332487e-07, 'divides_attract': 7.937050657777073e-06, 'stop': 0}
+reward: 0.0
+nextV: 1.9287695933487217
+Qnew 1.7358926340138496
+Qold 1.8579342570882127
+Pacman: (x,y)=(40.0, 10.0), North
+South
+{'eat_food': 0.6336576525566154, 'distanceToFood': -39.68748395046999, 'check_died': -0.3851585521197014, 'divides_attract': -29.352602844872546, 'Capsule_attract': -3.695548170054605, 'stop': -0.09710472203429238, 'CornerAvoid': 1.8584053552696176, 'bias': 1.9600473778225567, 'defendersAvoid': 1.0693026735291236}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 4.5399929762484854e-05, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.0009110511944006454, 'Capsule_attract': 1.0318165855110194e-06, 'divides_attract': 8.333903190665925e-06, 'stop': 0}
+reward: 0.0
+nextV: 2.6058840821588105
+Qnew 2.3452956739429296
+Qold 1.8921568784289087
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.6336576525566154, 'distanceToFood': -39.68724629026255, 'check_died': -0.3851585521197014, 'divides_attract': -29.35260171194809, 'Capsule_attract': -3.695548029787768, 'stop': -0.09710472203429238, 'CornerAvoid': 1.8585292050618822, 'bias': 2.095989016476763, 'defendersAvoid': 1.0693088452699702}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 4.5399929762484854e-05, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.0066928509242848554, 'divides_attract': 1.0476906868265737e-05, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 1.6209063006320796
+Qnew 2.258815670568872
+Qold 2.7418265500132795
+Pacman: (x,y)=(40.0, 8.0), South
+North
+{'eat_food': 0.48875438872329313, 'distanceToFood': -39.68724629026255, 'check_died': -0.3851585521197014, 'divides_attract': -29.35260323008609, 'Capsule_attract': -3.695548029787768, 'stop': -0.09710472203429238, 'CornerAvoid': 1.8575593891186035, 'bias': 1.9510857526434406, 'defendersAvoid': 1.0693022666719698}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.00033546262790251185, 'eat_food': 0, 'distanceToFood': 0.012237762237762238, 'inTunnel': 1, 'CornerAvoid': 0.0066928509242848554, 'Capsule_attract': 7.624150634147997e-06, 'divides_attract': 7.38956138386652e-05, 'stop': 0}
+reward: 0.0
+nextV: 1.5344128144095839
+Qnew 1.3809715329686256
+Qold 1.4759965436461677
+Pacman: (x,y)=(40.0, 9.0), North
+North
+{'eat_food': 0.48875438872329313, 'distanceToFood': -39.687595158308746, 'check_died': -0.3851585521197014, 'divides_attract': -29.352605336665537, 'Capsule_attract': -3.6955482471332664, 'stop': -0.09710472203429238, 'CornerAvoid': 1.8573685926494405, 'bias': 1.922578249440178, 'defendersAvoid': 1.0692927034700304}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0024787521766663585, 'eat_food': 0, 'distanceToFood': 0.01048951048951049, 'inTunnel': 1, 'CornerAvoid': 0.0066928509242848554, 'Capsule_attract': 5.200179391607745e-05, 'divides_attract': 0.0005200179391607745, 'stop': 0}
+reward: 0.0
+nextV: 1.5113934699032414
+Qnew 1.3602541229129173
+Qold 1.5059003499673973
+Pacman: (x,y)=(40.0, 10.0), North
+South
+{'eat_food': 0.48875438872329313, 'distanceToFood': -39.688053485596676, 'check_died': -0.3851585521197014, 'divides_attract': -29.352628058260787, 'Capsule_attract': -3.6955505192927913, 'stop': -0.09710472203429238, 'CornerAvoid': 1.8570761561038325, 'bias': 1.878884381323834, 'defendersAvoid': 1.06918439719933}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0024787521766663585, 'eat_food': 0, 'distanceToFood': 0.012237762237762238, 'inTunnel': 1, 'CornerAvoid': 0.04742587317756678, 'Capsule_attract': 5.633527674241724e-05, 'divides_attract': 0.0005460188361188133, 'stop': 0}
+reward: 0.0
+nextV: 1.8088871674303955
+Qnew 1.627998450687356
+Qold 1.4676798428291704
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.48875438872329313, 'distanceToFood': -39.6874649032951, 'check_died': -0.3851585521197014, 'divides_attract': -29.352601797166887, 'Capsule_attract': -3.6955478098148493, 'stop': -0.09710472203429238, 'CornerAvoid': 1.8593571310931183, 'bias': 1.9269799636812897, 'defendersAvoid': 1.0693036142287866}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0024787521766663585, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.2689414213699951, 'Capsule_attract': 6.066875956875702e-05, 'divides_attract': 0.000572019733076852, 'stop': 0}
+reward: 0.0
+nextV: 2.1654391496954193
+Qnew 1.9488952347258774
+Qold 1.8576047410595964
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.48875438872329313, 'distanceToFood': -39.68708186625874, 'check_died': -0.3851585521197014, 'divides_attract': -29.35258613117774, 'Capsule_attract': -3.695546148270546, 'stop': -0.09710472203429238, 'CornerAvoid': 1.8667226696303718, 'bias': 1.954367111781174, 'defendersAvoid': 1.0693715001817519}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.5, 'Capsule_attract': 0.00016491478669090304, 'divides_attract': 0.0015549108459428002, 'stop': 1}
+reward: 0.0
+nextV: 2.5607473322231336
+Qnew 2.30467259900082
+Qold 2.196514906270461
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.48875438872329313, 'distanceToFood': -39.68662805775777, 'check_died': -0.3851585521197014, 'divides_attract': -29.352535678506893, 'Capsule_attract': -3.695540797229698, 'stop': -0.06465741421518464, 'CornerAvoid': 1.8829463235399257, 'bias': 1.9868144196002817, 'defendersAvoid': 1.0695901284221}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'Capsule_attract': 0.00044828486790608133, 'divides_attract': 0.004226685897400195, 'stop': 1}
+reward: 0.0
+nextV: 2.7371006146316534
+Qnew 2.4633905531684883
+Qold 2.637512956162978
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.48875438872329313, 'distanceToFood': -39.68735864126684, 'check_died': -0.3851585521197014, 'divides_attract': -29.35275646671844, 'Capsule_attract': -3.6955642141612257, 'stop': -0.11689413511353161, 'CornerAvoid': 1.844758220607688, 'bias': 1.9345776987019347, 'defendersAvoid': 1.0686333795053944}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.8807970779778823, 'Capsule_attract': 0.0012185646104022644, 'divides_attract': 0.011489323469507063, 'stop': 1}
+reward: 0.0
+nextV: 2.235544796832911
+Qnew 2.0119903171496203
+Qold 2.5989307864415983
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.48875438872329313, 'distanceToFood': -39.689821328550586, 'check_died': -0.3851585521197014, 'divides_attract': -29.354779531391152, 'Capsule_attract': -3.6957787816265135, 'stop': -0.29297627590112496, 'CornerAvoid': 1.6896655855178857, 'bias': 1.7584955579143413, 'defendersAvoid': 1.0598667659236427}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'Capsule_attract': 0.0033124020372597516, 'divides_attract': 0.031231219208449082, 'stop': 1}
+reward: 0.0
+nextV: 0.43423652353567743
+Qnew 0.3908128711821097
+Qold 1.734358514989584
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.48875438872329313, 'distanceToFood': -39.695458583000125, 'check_died': -0.3851585521197014, 'divides_attract': -29.367367701946645, 'Capsule_attract': -3.6971138906248235, 'stop': -0.6960399690433672, 'CornerAvoid': 1.305717539969089, 'bias': 1.355431864772099, 'defendersAvoid': 1.0053180268498423}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.009004042266433903, 'divides_attract': 0.08489525565494824, 'stop': 1}
+reward: 0.0
+nextV: -0.6571001263240608
+Qnew -0.5913901136916547
+Qold -0.7701600378378666
+Pacman: (x,y)=(40.0, 11.0), East
+East
+{'eat_food': 0.7214165959064481, 'distanceToFood': -39.72071179131759, 'check_died': -0.3851585521197014, 'divides_attract': -29.359947614635008, 'Capsule_attract': -3.696400894113295, 'stop': -0.09173794319300156, 'CornerAvoid': 1.3583838991957722, 'bias': 2.162939675057094, 'defendersAvoid': 1.0409951656825684}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.11920292202211755, 'Capsule_attract': 0.0010444839517733694, 'divides_attract': 0.012185646104022643, 'stop': 0}
+reward: 0.0
+nextV: 2.30579331545437
+Qnew 2.075213983908933
+Qold 1.8761767322137237
+Pacman: (x,y)=(41.0, 11.0), East
+East
+{'eat_food': 0.7214165959064481, 'distanceToFood': -39.72050301098364, 'check_died': -0.3851585521197014, 'divides_attract': -29.359219995381807, 'Capsule_attract': -3.6963385267487348, 'stop': -0.09173794319300156, 'CornerAvoid': 1.3655016457937683, 'bias': 2.222650850565657, 'defendersAvoid': 1.043968010059939}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.005244755244755245, 'inTunnel': 1, 'CornerAvoid': 0.5, 'Capsule_attract': 0.001131524281087817, 'divides_attract': 0.012794928409223775, 'stop': 0}
+reward: 0.0
+nextV: 2.801549662977933
+Qnew 2.5213946966801397
+Qold 2.369221848876387
+Pacman: (x,y)=(42.0, 11.0), East
+South
+{'eat_food': 0.7214165959064481, 'distanceToFood': -39.720263578181154, 'check_died': -0.3851585521197014, 'divides_attract': -29.358635883173765, 'Capsule_attract': -3.696286870567071, 'stop': -0.09173794319300156, 'CornerAvoid': 1.3883275729643312, 'bias': 2.2683027049067825, 'defendersAvoid': 1.0462408820531404}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.006993006993006993, 'inTunnel': 1, 'CornerAvoid': 0.8807970779778823, 'Capsule_attract': 0.0012185646104022644, 'divides_attract': 0.01340421071442491, 'stop': 0}
+reward: 0.0
+nextV: 2.9203007623523525
+Qnew 2.6282706861171174
+Qold 2.867429253771118
+Pacman: (x,y)=(42.0, 10.0), South
+South
+{'eat_food': 0.7214165959064481, 'distanceToFood': -39.720765309441965, 'check_died': -0.3851585521197014, 'divides_attract': -29.359597602724264, 'Capsule_attract': -3.6963742996171165, 'stop': -0.09173794319300156, 'CornerAvoid': 1.3251325226954254, 'bias': 2.1965551346105823, 'defendersAvoid': 1.0426687808655752}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.008741258741258742, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.001305604939716712, 'divides_attract': 0.01401349301962604, 'stop': 0}
+reward: 0.0
+nextV: 2.719204603905095
+Qnew 2.447284143514586
+Qold 2.786298959823129
+Pacman: (x,y)=(42.0, 9.0), South
+South
+{'eat_food': 0.7214165959064481, 'distanceToFood': -39.72165433430991, 'check_died': -0.3851585521197014, 'divides_attract': -29.361022837252833, 'Capsule_attract': -3.6965070854427595, 'stop': -0.09173794319300156, 'CornerAvoid': 1.2252573553027781, 'bias': 2.0948506897180192, 'defendersAvoid': 1.0376052147143935}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.01048951048951049, 'inTunnel': 1, 'CornerAvoid': 0.9975273768433653, 'Capsule_attract': 0.0013926452690311592, 'divides_attract': 0.014622775324827173, 'stop': 0}
+reward: 0.0
+nextV: 1.7699580672965298
+Qnew 1.592962260566877
+Qold 2.517589493913873
+Pacman: (x,y)=(42.0, 8.0), South
+Stop
+{'eat_food': 0.7214165959064481, 'distanceToFood': -39.724564000428835, 'check_died': -0.3851585521197014, 'divides_attract': -29.365079022140566, 'Capsule_attract': -3.696893388765401, 'stop': -0.09173794319300156, 'CornerAvoid': 0.948555061711208, 'bias': 1.8174625197139205, 'defendersAvoid': 1.0237948709299627}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.01048951048951049, 'inTunnel': 1, 'CornerAvoid': 0.9990889488055994, 'Capsule_attract': 0.0037856023282968588, 'divides_attract': 0.03974882444711702, 'stop': 1}
+reward: 0.0
+nextV: -0.5769918254859222
+Qnew -0.51929264293733
+Qold 1.2140574549232093
+Pacman: (x,y)=(42.0, 8.0), South
+North
+{'eat_food': 0.7214165959064481, 'distanceToFood': -39.730018598638885, 'check_died': -0.3851585521197014, 'divides_attract': -29.385748610764143, 'Capsule_attract': -3.6988619210152653, 'stop': -0.6117429725511634, 'CornerAvoid': 0.42902378355613724, 'bias': 1.2974574903557587, 'defendersAvoid': 0.9534198429973127}
+{'bias': 1.0, 'check_died': 1, 'defendersAvoid': 1.0, 'eat_food': 0, 'distanceToFood': 0.008741258741258742, 'inTunnel': 1, 'CornerAvoid': 0.9990889488055994, 'Capsule_attract': 0.026223776223776224, 'divides_attract': 0.28146853146853146, 'stop': 0}
+reward: -5.6000000000000005
+nextV: -0.7862847438385883
+Qnew -6.30765626945473
+Qold -6.421100305081225
+Blue team starts
+Red team starts
+Blue team starts
+Red team starts
+Blue team starts
+Red team starts
+Blue team starts
+Red team starts
+Red team starts
+Red team starts
+Red team starts
+Blue team starts
+Blue team starts
+Red team starts
+Red team starts
+Red team starts
+Blue team starts
+Blue team starts
+Red team starts
+Pacman: (x,y)=(38.0, 6.0), South
+East
+{'eat_food': 0.5095892812980282, 'distanceToFood': -39.55677519312795, 'check_died': -1.9007448502998607, 'divides_attract': -29.422031657925437, 'Capsule_attract': -3.761463204200418, 'stop': 0.13361118769212926, 'CornerAvoid': 0.46302598824683916, 'bias': 2.873554859369736, 'defendersAvoid': 0.03889882608481007}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.005244755244755245, 'inTunnel': 1, 'CornerAvoid': 0.2689414213699951, 'Capsule_attract': 0.000709800436555661, 'divides_attract': 0.08541265253219787, 'stop': 0}
+reward: 0.0
+nextV: 0.29363998357035376
+Qnew 0.2642759852133184
+Qold 0.28019685125194455
+Red team starts
+Blue team starts
+Blue team starts
+Blue team starts
+Red team starts
+Red team starts
+Blue team starts
+Red team starts
+Red team starts
+Red team starts
+Red team starts
+Blue team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.6467486723686564, 'distanceToFood': -39.62885968354052, 'check_died': -2.2801679383596785, 'divides_attract': -29.210097645316527, 'Capsule_attract': -3.791822989752014, 'stop': -0.016514045913418783, 'CornerAvoid': 0.46174145414427836, 'bias': 1.9989975309529102, 'defendersAvoid': -0.0055416653262876725}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0009118819655545162, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.0024726231566347743, 'Capsule_attract': 1.9130390885759082e-05, 'divides_attract': 0.00015941992404799237, 'stop': 0}
+reward: 0.0
+nextV: 1.9330481440249603
+Qnew 1.7397433296224643
+Qold 1.856842533170175
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.6467486723686564, 'distanceToFood': -39.62898251487291, 'check_died': -2.2801679383596785, 'divides_attract': -29.210103245700367, 'Capsule_attract': -3.791823661798075, 'stop': -0.016514045913418783, 'CornerAvoid': 0.4616545914835837, 'bias': 1.963867769888597, 'defendersAvoid': -0.005573699521856459}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0009118819655545162, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.01798620996209156, 'Capsule_attract': 2.0724590126239006e-05, 'divides_attract': 0.00016739092025039196, 'stop': 0}
+reward: 0.0
+nextV: 2.659495128349008
+Qnew 2.3935456155141073
+Qold 1.8979165757277159
+Pacman: (x,y)=(40.0, 9.0), South
+Stop
+{'eat_food': 0.6467486723686564, 'distanceToFood': -39.628722569572325, 'check_died': -2.2801679383596785, 'divides_attract': -29.210078356560047, 'Capsule_attract': -3.7918205802854636, 'stop': -0.016514045913418783, 'CornerAvoid': 0.46432893787545604, 'bias': 2.112556481824514, 'defendersAvoid': -0.005438112966960565}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0024787521766663585, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.04742587317756678, 'Capsule_attract': 5.633527674241724e-05, 'divides_attract': 0.0004550156967656777, 'stop': 1}
+reward: 0.0
+nextV: 2.867460217769589
+Qnew 2.58071419599263
+Qold 2.035264520566121
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.6467486723686564, 'distanceToFood': -39.62843649456773, 'check_died': -2.2801679383596785, 'divides_attract': -29.210003900110813, 'Capsule_attract': -3.791811361867939, 'stop': 0.1471208567145339, 'CornerAvoid': 0.4720894660149128, 'bias': 2.276191384452467, 'defendersAvoid': -0.0050325025958929395}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0024787521766663585, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.2689414213699951, 'divides_attract': 0.000572019733076852, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 2.059034920745574
+Qnew 2.653131428671017
+Qold 3.0331832958640974
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.5327331122107323, 'distanceToFood': -39.62843649456773, 'check_died': -2.2801679383596785, 'divides_attract': -29.2100691192611, 'Capsule_attract': -3.791811361867939, 'stop': 0.1471208567145339, 'CornerAvoid': 0.4414259592077445, 'bias': 2.162175824294543, 'defendersAvoid': -0.005315118913808228}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.5, 'Capsule_attract': 0.00016491478669090304, 'divides_attract': 0.0015549108459428002, 'stop': 1}
+reward: 0.0
+nextV: 1.9525020995983642
+Qnew 1.7572518896385279
+Qold 1.92968560152033
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.5327331122107323, 'distanceToFood': -39.62915999265954, 'check_died': -2.2801679383596785, 'divides_attract': -29.210149554975743, 'Capsule_attract': -3.7918198929285833, 'stop': 0.09539074314999324, 'CornerAvoid': 0.41556090242547417, 'bias': 2.1104457107300023, 'defendersAvoid': -0.005663673677262775}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'Capsule_attract': 0.00044828486790608133, 'divides_attract': 0.004226685897400195, 'stop': 1}
+reward: 0.0
+nextV: 1.6770998844779634
+Qnew 1.509389896030167
+Qold 1.8301161541633946
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.5327331122107323, 'distanceToFood': -39.630505697239116, 'check_died': -2.2801679383596785, 'divides_attract': -29.210556237721395, 'Capsule_attract': -3.7918630259470616, 'stop': -0.0008271342899750095, 'CornerAvoid': 0.34521999770541495, 'bias': 2.014227833290034, 'defendersAvoid': -0.007425965575093716}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.8807970779778823, 'Capsule_attract': 0.0012185646104022644, 'divides_attract': 0.011489323469507063, 'stop': 1}
+reward: 0.0
+nextV: 0.8621290748939698
+Qnew 0.7759161674045729
+Qold 1.4225967807980213
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.5327331122107323, 'distanceToFood': -39.63321904247014, 'check_died': -2.2801679383596785, 'divides_attract': -29.212785214546017, 'Capsule_attract': -3.7920994325799757, 'stop': -0.19483131830800954, 'CornerAvoid': 0.17434167930684677, 'bias': 1.8202236492719994, 'defendersAvoid': -0.01708486514845126}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'Capsule_attract': 0.0033124020372597516, 'divides_attract': 0.031231219208449082, 'stop': 1}
+reward: 0.0
+nextV: -1.2781687550118106
+Qnew -1.1503518795106296
+Qold 0.3099309063850015
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.5327331122107323, 'distanceToFood': -39.639346103110256, 'check_died': -2.2801679383596785, 'divides_attract': -29.226467138083805, 'Capsule_attract': -3.7935505456824687, 'stop': -0.6329161540766989, 'CornerAvoid': -0.2429666005996616, 'bias': 1.3821388135033101, 'defendersAvoid': -0.07637320047887179}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.009004042266433903, 'divides_attract': 0.08489525565494824, 'stop': 1}
+reward: 0.0
+nextV: -0.62754831410193
+Qnew -0.564793482691737
+Qold -2.5872121612198256
+Blue team starts
+Red team starts
+Red team starts
+Red team starts
+Red team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.5413579855894394, 'distanceToFood': -39.626917094129865, 'check_died': -2.55183744646197, 'divides_attract': -29.21551718503191, 'Capsule_attract': -3.802787964925594, 'stop': -0.08062484711191353, 'CornerAvoid': 0.35284630886378643, 'bias': 2.2157657018850228, 'defendersAvoid': -0.262194959741321}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.01798620996209156, 'Capsule_attract': 0.00014135553144934546, 'divides_attract': 0.0011779627620778787, 'stop': 0}
+reward: 0.0
+nextV: 2.150063658671827
+Qnew 1.9350572928046446
+Qold 2.046837423330567
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.5413579855894394, 'distanceToFood': -39.62703434601503, 'check_died': -2.55183744646197, 'divides_attract': -29.2155566868813, 'Capsule_attract': -3.802792705147521, 'stop': -0.08062484711191353, 'CornerAvoid': 0.35224315859461763, 'bias': 2.1822316627272462, 'defendersAvoid': -0.2624209103198314}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.11920292202211755, 'Capsule_attract': 0.00015313515907012425, 'divides_attract': 0.0012368609001817729, 'stop': 0}
+reward: 0.0
+nextV: 2.852515463466119
+Qnew 2.5672639171195075
+Qold 2.116455945226524
+Pacman: (x,y)=(40.0, 9.0), South
+North
+{'eat_food': 0.5413579855894394, 'distanceToFood': -39.626797908267534, 'check_died': -2.55183744646197, 'divides_attract': -29.21538941085512, 'Capsule_attract': -3.802771994782375, 'stop': -0.08062484711191353, 'CornerAvoid': 0.36836444685077013, 'bias': 2.3174740542951415, 'defendersAvoid': -0.2615096542534173}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.11920292202211755, 'Capsule_attract': 0.0010444839517733694, 'divides_attract': 0.008704032931444746, 'stop': 0}
+reward: 0.0
+nextV: 2.1480496340031525
+Qnew 1.9332446706028372
+Qold 1.9515454903942797
+Pacman: (x,y)=(40.0, 10.0), North
+South
+{'eat_food': 0.5413579855894394, 'distanceToFood': -39.62681710493165, 'check_died': -2.55183744646197, 'divides_attract': -29.215437198136563, 'Capsule_attract': -3.8027777292561478, 'stop': -0.08062484711191353, 'CornerAvoid': 0.36770999349240807, 'bias': 2.311983808357709, 'defendersAvoid': -0.2617829975032607}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.5, 'Capsule_attract': 0.001131524281087817, 'divides_attract': 0.009139234578016983, 'stop': 0}
+reward: 0.0
+nextV: 2.828520665491828
+Qnew 2.5456685989426453
+Qold 2.142218075638998
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.5413579855894394, 'distanceToFood': -39.62660550500684, 'check_died': -2.55183744646197, 'divides_attract': -29.214331029444633, 'Capsule_attract': -3.802640775037147, 'stop': -0.08062484711191353, 'CornerAvoid': 0.4282275719879552, 'bias': 2.4330189653488032, 'defendersAvoid': -0.25575701186722993}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.8807970779778823, 'divides_attract': 0.011489323469507063, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 0.9693772363878976
+Qnew 1.6724395127491078
+Qold 3.0031722540768557
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.142138163191115, 'distanceToFood': -39.62660550500684, 'check_died': -2.55183744646197, 'divides_attract': -29.218917795119605, 'Capsule_attract': -3.802640775037147, 'stop': -0.08062484711191353, 'CornerAvoid': 0.07659591894866197, 'bias': 2.0337991429504787, 'defendersAvoid': -0.2756329964587818}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.02097902097902098, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'Capsule_attract': 0.0033124020372597516, 'divides_attract': 0.031231219208449082, 'stop': 1}
+reward: 0.0
+nextV: -1.4191211908559116
+Qnew -1.2772090717703204
+Qold 0.23236902684398236
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.142138163191115, 'distanceToFood': -39.636106346186935, 'check_died': -2.55183744646197, 'divides_attract': -29.233061584472633, 'Capsule_attract': -3.8041408739079228, 'stop': -0.5334982766962044, 'CornerAvoid': -0.3547995927986746, 'bias': 1.5809257133661878, 'defendersAvoid': -0.336922750321908}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.02097902097902098, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.009004042266433903, 'divides_attract': 0.08489525565494824, 'stop': 1}
+reward: 0.0
+nextV: -0.5671849452558313
+Qnew -0.5104664507302482
+Qold -2.7724651978346664
+Red team starts
+Blue team starts
+Red team starts
+Blue team starts
+Red team starts
+Blue team starts
+Red team starts
+Blue team starts
+Red team starts
+Blue team starts
+Red team starts
+Blue team starts
+Red team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.624046816137273, 'distanceToFood': -39.26954519823896, 'check_died': -1.142589330778244, 'divides_attract': -29.269171553591747, 'Capsule_attract': -3.8034332235435424, 'stop': -0.039264036846888256, 'CornerAvoid': 0.3115945960128283, 'bias': 1.6735278191765515, 'defendersAvoid': -0.06037128191827301}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 6.14421235332821e-06, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 1.670142184809518e-05, 'Capsule_attract': 1.2889955986003237e-07, 'divides_attract': 1.0741629988336033e-06, 'stop': 0}
+reward: 0.0
+nextV: 1.6048793033096729
+Qnew 1.4443913729787057
+Qold 1.5361946201016663
+Pacman: (x,y)=(40.0, 10.0), South
+Stop
+{'eat_food': 0.624046816137273, 'distanceToFood': -39.26964149535132, 'check_died': -1.142589330778244, 'divides_attract': -29.269171583175243, 'Capsule_attract': -3.803433227093562, 'stop': -0.039264036846888256, 'CornerAvoid': 0.3115941360394011, 'bias': 1.6459868450396633, 'defendersAvoid': -0.060371451135866526}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 1.670170079024566e-05, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 4.5397868702434395e-05, 'Capsule_attract': 3.50385331263895e-07, 'divides_attract': 2.9198777605324576e-06, 'stop': 1}
+reward: 0.0
+nextV: 1.5773459312243103
+Qnew 1.4196113381018793
+Qold 1.4693427117312174
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.624046816137273, 'distanceToFood': -39.26969366112786, 'check_died': -1.142589330778244, 'divides_attract': -29.269171626738103, 'Capsule_attract': -3.803433232321105, 'stop': -0.05418344893568969, 'CornerAvoid': 0.31159345872988997, 'bias': 1.6310674329508619, 'defendersAvoid': -0.0603717003154232}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 1.670170079024566e-05, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.0003353501304664781, 'Capsule_attract': 3.795841088692195e-07, 'divides_attract': 3.065871648559081e-06, 'stop': 0}
+reward: 0.0
+nextV: 2.255770883607213
+Qnew 2.0301937952464915
+Qold 1.562426427705166
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.624046816137273, 'distanceToFood': -39.26944832859244, 'check_died': -1.142589330778244, 'divides_attract': -29.26917119650369, 'Capsule_attract': -3.8034331790539873, 'stop': -0.05418344893568969, 'CornerAvoid': 0.31164051848420987, 'bias': 1.7713976432132594, 'defendersAvoid': -0.060369356562239566}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 1.670170079024566e-05, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.0024726231566347743, 'divides_attract': 3.854238643902845e-06, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 1.2907842500345599
+Qnew 1.961705825031104
+Qold 2.396101210271451
+Pacman: (x,y)=(40.0, 8.0), South
+North
+{'eat_food': 0.4937282005651688, 'distanceToFood': -39.26944832859244, 'check_died': -1.142589330778244, 'divides_attract': -29.269171698782735, 'Capsule_attract': -3.8034331790539873, 'stop': -0.05418344893568969, 'CornerAvoid': 0.3113182896576057, 'bias': 1.6410790276411553, 'defendersAvoid': -0.06037153310476425}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.00012340980408667956, 'eat_food': 0, 'distanceToFood': 0.012237762237762238, 'inTunnel': 1, 'CornerAvoid': 0.0024726231566347743, 'Capsule_attract': 2.804768274697263e-06, 'divides_attract': 2.7184677123988853e-05, 'stop': 0}
+reward: 0.0
+nextV: 1.2242043904624909
+Qnew 1.1017839514162417
+Qold 1.1604648374297364
+Pacman: (x,y)=(40.0, 9.0), North
+North
+{'eat_food': 0.4937282005651688, 'distanceToFood': -39.26966376541172, 'check_died': -1.142589330778244, 'divides_attract': -29.269172177349017, 'Capsule_attract': -3.8034332284298733, 'stop': -0.05418344893568969, 'CornerAvoid': 0.3112747609423231, 'bias': 1.623474761837107, 'defendersAvoid': -0.06037370564375822}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0009118819655545162, 'eat_food': 0, 'distanceToFood': 0.01048951048951049, 'inTunnel': 1, 'CornerAvoid': 0.0024726231566347743, 'Capsule_attract': 1.9130390885759082e-05, 'divides_attract': 0.0001913039088575908, 'stop': 0}
+reward: 0.0
+nextV: 1.2400039278664088
+Qnew 1.116003535079768
+Qold 1.2065977551279619
+Pacman: (x,y)=(40.0, 11.0), North
+East
+{'eat_food': 0.4937282005651688, 'distanceToFood': -39.270705153212475, 'check_died': -1.142589330778244, 'divides_attract': -29.269368648440288, 'Capsule_attract': -3.8034522044099384, 'stop': -0.08672375951251152, 'CornerAvoid': 0.31120755933241856, 'bias': 1.509775650634078, 'defendersAvoid': -0.061358203573440434}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.01048951048951049, 'inTunnel': 1, 'CornerAvoid': 0.04742587317756678, 'Capsule_attract': 0.0003842441724909268, 'divides_attract': 0.0038424417249092683, 'stop': 0}
+reward: 0.0
+nextV: 0.992090508976924
+Qnew 0.8928814580792316
+Qold 0.9975533548388584
+Blue team starts
+Red team starts
+Red team starts
+Red team starts
+Blue team starts
+Red team starts
+Red team starts
+Red team starts
+Blue team starts
+Blue team starts
+Red team starts
+Blue team starts
+Red team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.6362546483491065, 'distanceToFood': -39.554205555548634, 'check_died': -2.383285822596297, 'divides_attract': -29.071353127593927, 'Capsule_attract': -3.8274667779564986, 'stop': -0.03637811050442237, 'CornerAvoid': 0.30971831250212534, 'bias': 1.7097591529512715, 'defendersAvoid': -0.33508824706615203}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 1.670170079024566e-05, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 4.5397868702434395e-05, 'Capsule_attract': 3.50385331263895e-07, 'divides_attract': 2.9198777605324576e-06, 'stop': 0}
+reward: 0.0
+nextV: 1.640616129588034
+Qnew 1.4765545166292307
+Qold 1.5713799730468418
+Pacman: (x,y)=(40.0, 10.0), South
+Stop
+{'eat_food': 0.6362546483491065, 'distanceToFood': -39.55430502281061, 'check_died': -2.383285822596297, 'divides_attract': -29.07135321065755, 'Capsule_attract': -3.8274667879241333, 'stop': -0.03637811050442237, 'CornerAvoid': 0.3097170210400393, 'bias': 1.6813115160259882, 'defendersAvoid': -0.33508872219007213}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 4.5399929762484854e-05, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.00012339457598623172, 'Capsule_attract': 9.524460789332487e-07, 'divides_attract': 7.937050657777073e-06, 'stop': 1}
+reward: 0.0
+nextV: 1.612181361089478
+Qnew 1.4509632249805302
+Qold 1.5064202578447203
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.6362546483491065, 'distanceToFood': -39.554363194523404, 'check_died': -2.383285822596297, 'divides_attract': -29.071353342707134, 'Capsule_attract': -3.827466803770083, 'stop': -0.05301522036367941, 'CornerAvoid': 0.3097149681109226, 'bias': 1.6646744061667311, 'defendersAvoid': -0.33508947751369117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 4.5399929762484854e-05, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.0009110511944006454, 'Capsule_attract': 1.0318165855110194e-06, 'divides_attract': 8.333903190665925e-06, 'stop': 0}
+reward: 0.0
+nextV: 2.3026821397261745
+Qnew 2.072413925753557
+Qold 1.5955441476256906
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.6362546483491065, 'distanceToFood': -39.55411308799641, 'check_died': -2.383285822596297, 'divides_attract': -29.071352150451165, 'Capsule_attract': -3.8274666561574393, 'stop': -0.05301522036367941, 'CornerAvoid': 0.30984530394520365, 'bias': 1.807735339605091, 'defendersAvoid': -0.3350829825573613}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 4.5399929762484854e-05, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.0066928509242848554, 'divides_attract': 1.0476906868265737e-05, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 1.323465422125021
+Qnew 1.991118879912519
+Qold 2.445743945790205
+Pacman: (x,y)=(40.0, 8.0), South
+North
+{'eat_food': 0.49986712858580074, 'distanceToFood': -39.55411308799641, 'check_died': -2.383285822596297, 'divides_attract': -29.07135357937051, 'Capsule_attract': -3.8274666561574393, 'stop': -0.05301522036367941, 'CornerAvoid': 0.3089324826074949, 'bias': 1.6713478198417853, 'defendersAvoid': -0.33508917454117904}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.00033546262790251185, 'eat_food': 0, 'distanceToFood': 0.012237762237762238, 'inTunnel': 1, 'CornerAvoid': 0.0066928509242848554, 'Capsule_attract': 7.624150634147997e-06, 'divides_attract': 7.38956138386652e-05, 'stop': 0}
+reward: 0.0
+nextV: 1.24236491122372
+Qnew 1.1181284201013482
+Qold 1.1870717908018114
+Pacman: (x,y)=(40.0, 9.0), North
+North
+{'eat_food': 0.49986712858580074, 'distanceToFood': -39.554366201769966, 'check_died': -2.383285822596297, 'divides_attract': -29.071355107754318, 'Capsule_attract': -3.8274668138478325, 'stop': -0.05301522036367941, 'CornerAvoid': 0.3087940542968001, 'bias': 1.6506648086316462, 'defendersAvoid': -0.3350961129184725}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0024787521766663585, 'eat_food': 0, 'distanceToFood': 0.01048951048951049, 'inTunnel': 1, 'CornerAvoid': 0.0066928509242848554, 'Capsule_attract': 5.200179391607745e-05, 'divides_attract': 0.0005200179391607745, 'stop': 0}
+reward: 0.0
+nextV: 1.1913044964454322
+Qnew 1.0721740468008891
+Qold 1.221678300492446
+Pacman: (x,y)=(40.0, 11.0), North
+South
+{'eat_food': 0.49986712858580074, 'distanceToFood': -39.55527946033214, 'check_died': -2.383285822596297, 'divides_attract': -29.071563339069737, 'Capsule_attract': -3.8274869881799103, 'stop': -0.05301522036367941, 'CornerAvoid': 0.3084938713920489, 'bias': 1.5551582843399936, 'defendersAvoid': -0.3361350713503109}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.01048951048951049, 'inTunnel': 1, 'CornerAvoid': 0.04742587317756678, 'Capsule_attract': 0.0003842441724909268, 'divides_attract': 0.0038424417249092683, 'stop': 0}
+reward: 0.0
+nextV: 1.0290161063114234
+Qnew 0.926114495680281
+Qold 1.0355403506084484
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.49986712858580074, 'distanceToFood': -39.55562380742806, 'check_died': -2.383285822596297, 'divides_attract': -29.071689477810963, 'Capsule_attract': -3.8274996020540333, 'stop': -0.05301522036367941, 'CornerAvoid': 0.3069369863765979, 'bias': 1.5223305278615433, 'defendersAvoid': -0.3367363326834975}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.012237762237762238, 'inTunnel': 1, 'CornerAvoid': 0.2689414213699951, 'Capsule_attract': 0.000416264520198504, 'divides_attract': 0.004034563811154732, 'stop': 0}
+reward: 0.0
+nextV: 1.0627336859016732
+Qnew 0.9564603173115058
+Qold 0.9957538982751559
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.49986712858580074, 'distanceToFood': -39.55576806707845, 'check_died': -2.383285822596297, 'divides_attract': -29.071737037548893, 'Capsule_attract': -3.8275045090111215, 'stop': -0.05301522036367941, 'CornerAvoid': 0.3037666849220736, 'bias': 1.5105424535724483, 'defendersAvoid': -0.3369522387953701}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'Capsule_attract': 0.00044828486790608133, 'divides_attract': 0.004226685897400195, 'stop': 0}
+reward: 0.0
+nextV: 0.8164019999261805
+Qnew 0.7347617999335624
+Qold 1.04862176024175
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.49986712858580074, 'distanceToFood': -39.55708496201681, 'check_died': -2.383285822596297, 'divides_attract': -29.07213501378929, 'Capsule_attract': -3.8275467186123757, 'stop': -0.05301522036367941, 'CornerAvoid': 0.23493167998054157, 'bias': 1.416384465479992, 'defendersAvoid': -0.33867680250376125}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.8807970779778823, 'Capsule_attract': 0.0012185646104022644, 'divides_attract': 0.011489323469507063, 'stop': 1}
+reward: 0.0
+nextV: 0.0674416254977572
+Qnew 0.060697462947981486
+Qold 0.6615054376234639
+Pacman: (x,y)=(40.0, 8.0), South
+North
+{'eat_food': 0.49986712858580074, 'distanceToFood': -39.55960583463783, 'check_died': -2.383285822596297, 'divides_attract': -29.07420587693852, 'Capsule_attract': -3.827766355613052, 'stop': -0.23325761276632412, 'CornerAvoid': 0.07617470742454924, 'bias': 1.2361420730773474, 'defendersAvoid': -0.34765054281709906}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.012237762237762238, 'inTunnel': 1, 'CornerAvoid': 0.8807970779778823, 'Capsule_attract': 0.008360896390260053, 'divides_attract': 0.08103638039790513, 'stop': 0}
+reward: 0.0
+nextV: -0.7695022786787664
+Qnew -0.6925520508108898
+Qold -1.6968499701616853
+Blue team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.6135767424293675, 'distanceToFood': -39.54176060763777, 'check_died': -2.0660717762776315, 'divides_attract': -29.04722971781014, 'Capsule_attract': -3.812588194013824, 'stop': 0.055783838350927685, 'CornerAvoid': 0.3415495092595835, 'bias': 1.7790174135040426, 'defendersAvoid': 0.11901890043336054}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 4.5399929762484854e-05, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.00012339457598623172, 'Capsule_attract': 9.524460789332487e-07, 'divides_attract': 7.937050657777073e-06, 'stop': 0}
+reward: 0.0
+nextV: 1.7099590232387083
+Qnew 1.5389631209148376
+Qold 1.6405728774697121
+Pacman: (x,y)=(40.0, 10.0), South
+Stop
+{'eat_food': 0.6135767424293675, 'distanceToFood': -39.54186719129849, 'check_died': -2.0660717762776315, 'divides_attract': -29.047229959754677, 'Capsule_attract': -3.812588223047168, 'stop': 0.055783838350927685, 'CornerAvoid': 0.34154574783173564, 'bias': 1.7485344865375803, 'defendersAvoid': 0.1190175165106173}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.00012340980408667956, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.0003353501304664781, 'Capsule_attract': 2.5890168689513195e-06, 'divides_attract': 2.157514057459433e-05, 'stop': 1}
+reward: 0.0
+nextV: 1.6795958235451276
+Qnew 1.5116362411906148
+Qold 1.665552704410439
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.6135767424293675, 'distanceToFood': -39.54202864213404, 'check_died': -2.0660717762776315, 'divides_attract': -29.047230955985476, 'Capsule_attract': -3.812588342594864, 'stop': 0.00960889938498042, 'CornerAvoid': 0.3415302630599291, 'bias': 1.7023595475716329, 'defendersAvoid': 0.1190118180704458}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.00012340980408667956, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.0024726231566347743, 'Capsule_attract': 2.804768274697263e-06, 'divides_attract': 2.2653897603324047e-05, 'stop': 0}
+reward: 0.0
+nextV: 2.321266570765602
+Qnew 2.0891399136890416
+Qold 1.633420563308322
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.6135767424293675, 'distanceToFood': -39.541789628488736, 'check_died': -2.0660717762776315, 'divides_attract': -29.047227858839626, 'Capsule_attract': -3.812587959138711, 'stop': 0.00960889938498042, 'CornerAvoid': 0.3418683097255325, 'bias': 1.8390753526858488, 'defendersAvoid': 0.11902869014117048}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.00012340980408667956, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.01798620996209156, 'divides_attract': 2.8479185558464515e-05, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 1.3555160831056328
+Qnew 2.01996447479507
+Qold 2.457988458228505
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.48216954739933693, 'distanceToFood': -39.541789628488736, 'check_died': -2.0660717762776315, 'divides_attract': -29.047231601209518, 'Capsule_attract': -3.812587959138711, 'stop': 0.00960889938498042, 'CornerAvoid': 0.3395047923251929, 'bias': 1.7076681576558181, 'defendersAvoid': 0.11901247320497625}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.00033546262790251185, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.04742587317756678, 'Capsule_attract': 8.210623759851688e-06, 'divides_attract': 7.741445259288735e-05, 'stop': 1}
+reward: 0.0
+nextV: 1.224086332588609
+Qnew 1.1016776993297481
+Qold 1.1781062904667075
+Pacman: (x,y)=(40.0, 8.0), South
+North
+{'eat_food': 0.48216954739933693, 'distanceToFood': -39.54211030789211, 'check_died': -2.0660717762776315, 'divides_attract': -29.04723337621278, 'Capsule_attract': -3.8125881473966325, 'stop': -0.013319677956107376, 'CornerAvoid': 0.3384173845240724, 'bias': 1.6847395803147303, 'defendersAvoid': 0.11900478152416734}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0024787521766663585, 'eat_food': 0, 'distanceToFood': 0.012237762237762238, 'inTunnel': 1, 'CornerAvoid': 0.04742587317756678, 'Capsule_attract': 5.633527674241724e-05, 'divides_attract': 0.0005460188361188133, 'stop': 0}
+reward: 0.0
+nextV: 1.2061656126073688
+Qnew 1.085549051346632
+Qold 1.2011022395391988
+Pacman: (x,y)=(40.0, 9.0), North
+South
+{'eat_food': 0.48216954739933693, 'distanceToFood': -39.54253454162498, 'check_died': -2.0660717762776315, 'divides_attract': -29.04725230447798, 'Capsule_attract': -3.812590100312883, 'stop': -0.013319677956107376, 'CornerAvoid': 0.33677332126952714, 'bias': 1.6500736238569602, 'defendersAvoid': 0.11891885320914142}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0024787521766663585, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.2689414213699951, 'Capsule_attract': 6.066875956875702e-05, 'divides_attract': 0.000572019733076852, 'stop': 0}
+reward: 0.0
+nextV: 1.2071047941879205
+Qnew 1.0863943147691284
+Qold 1.171051342161358
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.48216954739933693, 'distanceToFood': -39.54288974593572, 'check_died': -2.0660717762776315, 'divides_attract': -29.047266832125043, 'Capsule_attract': -3.812591641123935, 'stop': -0.013319677956107376, 'CornerAvoid': 0.3299429868867797, 'bias': 1.6246765156392913, 'defendersAvoid': 0.11885590007186583}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.5, 'Capsule_attract': 0.00016491478669090304, 'divides_attract': 0.0015549108459428002, 'stop': 1}
+reward: 0.0
+nextV: 1.177211201199433
+Qnew 1.0594900810794896
+Qold 1.1782871038682192
+Pacman: (x,y)=(40.0, 8.0), South
+North
+{'eat_food': 0.48216954739933693, 'distanceToFood': -39.543388194982384, 'check_died': -2.0660717762776315, 'divides_attract': -29.047322247758803, 'Capsule_attract': -3.812597518539637, 'stop': -0.04895878479272626, 'CornerAvoid': 0.31212343346847027, 'bias': 1.5890374088026724, 'defendersAvoid': 0.11861576565890596}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.012237762237762238, 'inTunnel': 1, 'CornerAvoid': 0.5, 'Capsule_attract': 0.001131524281087817, 'divides_attract': 0.010967081493620379, 'stop': 0}
+reward: 0.0
+nextV: 0.9784259902177777
+Qnew 0.8805833911959999
+Qold 0.9442036770366796
+Pacman: (x,y)=(40.0, 9.0), North
+North
+{'eat_food': 0.48216954739933693, 'distanceToFood': -39.543621765961866, 'check_died': -2.0660717762776315, 'divides_attract': -29.04753156641664, 'Capsule_attract': -3.812619114909096, 'stop': -0.04895878479272626, 'CornerAvoid': 0.3025803905923683, 'bias': 1.5699513230504685, 'defendersAvoid': 0.11766552540268607}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.01048951048951049, 'inTunnel': 1, 'CornerAvoid': 0.5, 'Capsule_attract': 0.007717750514086203, 'divides_attract': 0.07717750514086202, 'stop': 0}
+reward: 0.0
+nextV: -0.43488264760144424
+Qnew -0.39139438284129985
+Qold -0.9215058491609321
+Blue team starts
+Red team starts
+Blue team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.6344920798941887, 'distanceToFood': -39.5133083854041, 'check_died': -3.2868076766141474, 'divides_attract': -29.15895424396844, 'Capsule_attract': -3.856177473958151, 'stop': 0.0377817882164233, 'CornerAvoid': 0.38209711054031315, 'bias': 1.5913624947308525, 'defendersAvoid': -1.034407247840508}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.04742587317756678, 'Capsule_attract': 0.0003842441724909268, 'divides_attract': 0.0032020347707577236, 'stop': 0}
+reward: 0.0
+nextV: 1.5064576201590791
+Qnew 1.3558118581431713
+Qold 1.3575298342029498
+Red team starts
+Red team starts
+Blue team starts
+Blue team starts
+Blue team starts
+Red team starts
+Red team starts
+Blue team starts
+Blue team starts
+Blue team starts
+Blue team starts
+Blue team starts
+Blue team starts
+Blue team starts
+Red team starts
+Blue team starts
+Blue team starts
+Red team starts
+Blue team starts
+Red team starts
+Blue team starts
+Blue team starts
+Red team starts
+Blue team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.543375181165499, 'distanceToFood': -39.42981966819105, 'check_died': -3.4124992765900304, 'divides_attract': -29.74846277175289, 'Capsule_attract': -3.850902093220244, 'stop': -0.014301407071402837, 'CornerAvoid': 0.3820726675858932, 'bias': 1.9308080028130299, 'defendersAvoid': -0.06918701026342547}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0024787521766663585, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.0066928509242848554, 'Capsule_attract': 5.200179391607745e-05, 'divides_attract': 0.00043334828263397873, 'stop': 0}
+reward: 0.0
+nextV: 1.8660704249191928
+Qnew 1.6794633824272736
+Qold 1.7822354593606236
+Pacman: (x,y)=(40.0, 11.0), North
+South
+{'eat_food': 0.543375181165499, 'distanceToFood': -39.43006288629099, 'check_died': -3.4124992765900304, 'divides_attract': -29.748554672766854, 'Capsule_attract': -3.850912790646412, 'stop': -0.014301407071402837, 'CornerAvoid': 0.381866316128865, 'bias': 1.8741572107313111, 'defendersAvoid': -0.06973632879208777}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.04742587317756678, 'Capsule_attract': 0.0003842441724909268, 'divides_attract': 0.0032020347707577236, 'stop': 0}
+reward: 0.0
+nextV: 1.8050242386449047
+Qnew 1.6245218147804144
+Qold 1.656387338805409
+Pacman: (x,y)=(40.0, 10.0), South
+Stop
+{'eat_food': 0.543375181165499, 'distanceToFood': -39.43009631166584, 'check_died': -3.4124992765900304, 'divides_attract': -29.748585283121628, 'Capsule_attract': -3.850916463888985, 'stop': -0.014301407071402837, 'CornerAvoid': 0.3814129410385212, 'bias': 1.8645975535238128, 'defendersAvoid': -0.0699114200214004}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.11920292202211755, 'Capsule_attract': 0.0010444839517733694, 'divides_attract': 0.008704032931444746, 'stop': 1}
+reward: 0.0
+nextV: 1.7066528998342454
+Qnew 1.535987609850821
+Qold 1.491458642837407
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.543375181165499, 'distanceToFood': -39.43004960295919, 'check_died': -3.4124992765900304, 'divides_attract': -29.748469008643042, 'Capsule_attract': -3.8509025109515544, 'stop': -0.0009427169673786647, 'CornerAvoid': 0.3830053359333088, 'bias': 1.877956243627837, 'defendersAvoid': -0.06924633000388623}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.5, 'Capsule_attract': 0.001131524281087817, 'divides_attract': 0.009139234578016983, 'stop': 0}
+reward: 0.0
+nextV: 2.4134440506042982
+Qnew 2.1720996455438684
+Qold 1.720842060374237
+Pacman: (x,y)=(40.0, 9.0), South
+Stop
+{'eat_food': 0.543375181165499, 'distanceToFood': -39.42981292940053, 'check_died': -3.4124992765900304, 'divides_attract': -29.74723176396525, 'Capsule_attract': -3.850749328277161, 'stop': -0.0009427169673786647, 'CornerAvoid': 0.4506939737087535, 'bias': 2.0133335191787265, 'defendersAvoid': -0.06250629233057894}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'Capsule_attract': 0.0030758018917411978, 'divides_attract': 0.024843015279448138, 'stop': 1}
+reward: 0.0
+nextV: 2.048526495972407
+Qnew 1.8436738463751663
+Qold 1.513626876562275
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.543375181165499, 'distanceToFood': -39.42963982784294, 'check_died': -3.4124992765900304, 'divides_attract': -29.74477195539105, 'Capsule_attract': -3.850444780548927, 'stop': 0.09807137397648875, 'CornerAvoid': 0.5230790742985193, 'bias': 2.112347610122594, 'defendersAvoid': -0.04910619228827492}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'divides_attract': 0.031231219208449082, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: -0.6810301384798239
+Qnew 0.18707287536815853
+Qold 2.21838309006094
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': -0.06601788324233537, 'distanceToFood': -39.42963982784294, 'check_died': -3.4124992765900304, 'divides_attract': -29.76380404376968, 'Capsule_attract': -3.850444780548927, 'stop': 0.09807137397648875, 'CornerAvoid': -0.057412991921420464, 'bias': 1.5029545457147595, 'defendersAvoid': -0.13157857526233654}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.02097902097902098, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.009004042266433903, 'divides_attract': 0.08489525565494824, 'stop': 1}
+reward: 0.0
+nextV: -0.7718323674300278
+Qnew -0.694649130687025
+Qold -1.8924300450923641
+Blue team starts
+Red team starts
+Red team starts
+Blue team starts
+Red team starts
+Red team starts
+Blue team starts
+Red team starts
+Blue team starts
+Red team starts
+Red team starts
+Blue team starts
+Blue team starts
+Red team starts
+Red team starts
+Red team starts
+Red team starts
+Blue team starts
+Blue team starts
+Red team starts
+Blue team starts
+Red team starts
+Blue team starts
+Blue team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.5602624327056971, 'distanceToFood': -39.523819363096024, 'check_died': -2.1128743351200425, 'divides_attract': -29.280717481253607, 'Capsule_attract': -3.9519873213131507, 'stop': 0.0288328840758763, 'CornerAvoid': 0.2954582206956571, 'bias': 1.757402185880037, 'defendersAvoid': -0.4561188874956856}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 4.5399929762484854e-05, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.00012339457598623172, 'Capsule_attract': 9.524460789332487e-07, 'divides_attract': 7.937050657777073e-06, 'stop': 0}
+reward: 0.0
+nextV: 1.6883049689894167
+Qnew 1.5194744720904751
+Qold 1.618986596865435
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.5602624327056971, 'distanceToFood': -39.52392374644369, 'check_died': -2.1128743351200425, 'divides_attract': -29.28071771820344, 'Capsule_attract': -3.9519873497471307, 'stop': 0.0288328840758763, 'CornerAvoid': 0.2954545369187245, 'bias': 1.7275485484475492, 'defendersAvoid': -0.45612024284872815}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 4.5399929762484854e-05, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.0009110511944006454, 'Capsule_attract': 1.0318165855110194e-06, 'divides_attract': 8.333903190665925e-06, 'stop': 0}
+reward: 0.0
+nextV: 2.2894609351441884
+Qnew 2.0605148416297694
+Qold 1.6584511456489128
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.5602624327056971, 'distanceToFood': -39.52371287387587, 'check_died': -2.1128743351200425, 'divides_attract': -29.280716712975465, 'Capsule_attract': -3.951987225290334, 'stop': 0.0288328840758763, 'CornerAvoid': 0.29556442710185904, 'bias': 1.8481676572418062, 'defendersAvoid': -0.4561147667496609}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 4.5399929762484854e-05, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.0066928509242848554, 'divides_attract': 1.0476906868265737e-05, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 1.364117168447515
+Qnew 2.0277054516027637
+Qold 2.4100807796762056
+Pacman: (x,y)=(40.0, 8.0), South
+North
+{'eat_food': 0.4455498342836645, 'distanceToFood': -39.52371287387587, 'check_died': -2.1128743351200425, 'divides_attract': -29.280717914808676, 'Capsule_attract': -3.951987225290334, 'stop': 0.0288328840758763, 'CornerAvoid': 0.294796672781483, 'bias': 1.7334550588197737, 'defendersAvoid': -0.4561199746935721}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.00033546262790251185, 'eat_food': 0, 'distanceToFood': 0.012237762237762238, 'inTunnel': 1, 'CornerAvoid': 0.0066928509242848554, 'Capsule_attract': 7.624150634147997e-06, 'divides_attract': 7.38956138386652e-05, 'stop': 0}
+reward: 0.0
+nextV: 1.3042810708362056
+Qnew 1.173852963752585
+Qold 1.2493994297243889
+Pacman: (x,y)=(40.0, 9.0), North
+Stop
+{'eat_food': 0.4455498342836645, 'distanceToFood': -39.52399022978241, 'check_died': -2.1128743351200425, 'divides_attract': -29.280719589574417, 'Capsule_attract': -3.9519873980836246, 'stop': 0.0288328840758763, 'CornerAvoid': 0.29464498641110126, 'bias': 1.7107911190282326, 'defendersAvoid': -0.45612757759837325}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0009118819655545162, 'eat_food': 0, 'distanceToFood': 0.012237762237762238, 'inTunnel': 1, 'CornerAvoid': 0.01798620996209156, 'Capsule_attract': 2.0724590126239006e-05, 'divides_attract': 0.00020086910430047036, 'stop': 1}
+reward: 0.0
+nextV: 1.2564814400058357
+Qnew 1.1308332960052523
+Qold 1.2548589248260171
+Pacman: (x,y)=(40.0, 9.0), North
+North
+{'eat_food': 0.4455498342836645, 'distanceToFood': -39.52444556862948, 'check_died': -2.1128743351200425, 'divides_attract': -29.280727063449508, 'Capsule_attract': -3.9519881691977212, 'stop': -0.008374804570353153, 'CornerAvoid': 0.29397576111090606, 'bias': 1.6735834303820032, 'defendersAvoid': -0.4561615066186297}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 0, 'distanceToFood': 0.01048951048951049, 'inTunnel': 1, 'CornerAvoid': 0.01798620996209156, 'Capsule_attract': 0.00014135553144934546, 'divides_attract': 0.0014135553144934546, 'stop': 0}
+reward: 0.0
+nextV: 1.177797228549874
+Qnew 1.0600175056948866
+Qold 1.2192566989655553
+Pacman: (x,y)=(40.0, 10.0), North
+South
+{'eat_food': 0.4455498342836645, 'distanceToFood': -39.524946670985926, 'check_died': -2.1128743351200425, 'divides_attract': -29.280794591471885, 'Capsule_attract': -3.951994921999959, 'stop': -0.008374804570353153, 'CornerAvoid': 0.29311652824159795, 'bias': 1.6258116724008025, 'defendersAvoid': -0.45648339019196016}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 0, 'distanceToFood': 0.012237762237762238, 'inTunnel': 1, 'CornerAvoid': 0.11920292202211755, 'Capsule_attract': 0.00015313515907012425, 'divides_attract': 0.0014842330802181272, 'stop': 0}
+reward: 0.0
+nextV: 1.170316951207991
+Qnew 1.053285256087192
+Qold 1.1299146450325859
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.4455498342836645, 'distanceToFood': -39.52522800265863, 'check_died': -2.1128743351200425, 'divides_attract': -29.280828712234083, 'Capsule_attract': -3.9519984423960586, 'stop': -0.008374804570353153, 'CornerAvoid': 0.29037619411907983, 'bias': 1.6028228557171844, 'defendersAvoid': -0.4566382876203461}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.5, 'Capsule_attract': 0.00016491478669090304, 'divides_attract': 0.0015549108459428002, 'stop': 0}
+reward: 0.0
+nextV: 1.1200335583812118
+Qnew 1.0080302025430907
+Qold 1.1459529354284335
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.4455498342836645, 'distanceToFood': -39.52580669943997, 'check_died': -2.1128743351200425, 'divides_attract': -29.28089304950006, 'Capsule_attract': -3.9520052660454805, 'stop': -0.008374804570353153, 'CornerAvoid': 0.2696877841862784, 'bias': 1.5614460358515816, 'defendersAvoid': -0.4569170824395912}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'Capsule_attract': 0.00044828486790608133, 'divides_attract': 0.004226685897400195, 'stop': 1}
+reward: 0.0
+nextV: 0.8738209707510411
+Qnew 0.786438873675937
+Qold 1.063518823997156
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.4455498342836645, 'distanceToFood': -39.5269692726581, 'check_died': -2.1128743351200425, 'divides_attract': -29.281244388475603, 'Capsule_attract': -3.9520425292701593, 'stop': -0.09149878966671886, 'CornerAvoid': 0.2089192817916676, 'bias': 1.478322050755216, 'defendersAvoid': -0.4584395513336088}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.8807970779778823, 'Capsule_attract': 0.0012185646104022644, 'divides_attract': 0.011489323469507063, 'stop': 1}
+reward: 0.0
+nextV: 0.04338685600088137
+Qnew 0.03904817040079324
+Qold 0.6539521401330571
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.4455498342836645, 'distanceToFood': -39.52954928931432, 'check_died': -2.1128743351200425, 'divides_attract': -29.283363837658886, 'Capsule_attract': -3.9522673193350526, 'stop': -0.27596998058639804, 'CornerAvoid': 0.04643759585851412, 'bias': 1.2938508598355367, 'defendersAvoid': -0.4676238311278282}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'Capsule_attract': 0.0033124020372597516, 'divides_attract': 0.031231219208449082, 'stop': 1}
+reward: 0.0
+nextV: -2.183011825562983
+Qnew -1.9647106430066847
+Qold -0.48167735477431395
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.4455498342836645, 'distanceToFood': -39.5357718066076, 'check_died': -2.1128743351200425, 'divides_attract': -29.29725891897435, 'Capsule_attract': -3.953741040080632, 'stop': -0.7208799670561092, 'CornerAvoid': -0.3773721460174516, 'bias': 0.8489408733658255, 'defendersAvoid': -0.527835850161504}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.009004042266433903, 'divides_attract': 0.08489525565494824, 'stop': 1}
+reward: 0.0
+nextV: -1.1554951098483424
+Qnew -1.0399455988635082
+Qold -3.5124494974293192
+Blue team starts
+Blue team starts
+Blue team starts
+Pacman: (x,y)=(40.0, 11.0), East
+East
+{'eat_food': 0.812130451676471, 'distanceToFood': -39.47964505683258, 'check_died': -2.1132926742510487, 'divides_attract': -29.25168851437724, 'Capsule_attract': -3.959970415570426, 'stop': -0.060274223467044585, 'CornerAvoid': 0.35103773127678317, 'bias': 1.7109869311422958, 'defendersAvoid': -0.18658519170464957}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.006993006993006993, 'inTunnel': 1, 'CornerAvoid': 0.2689414213699951, 'Capsule_attract': 0.002839201746222644, 'divides_attract': 0.01419600873111322, 'stop': 0}
+reward: 0.0
+nextV: 1.1490625524702165
+Qnew 1.0341562972231948
+Qold 1.0775621433466205
+Blue team starts
+Blue team starts
+Blue team starts
+Red team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.8465508652600733, 'distanceToFood': -39.44756270255537, 'check_died': -1.5428497203845515, 'divides_attract': -29.292757834530573, 'Capsule_attract': -3.9553089120646883, 'stop': 0.10724470058094088, 'CornerAvoid': 0.34753564229112277, 'bias': 1.921910829165715, 'defendersAvoid': -0.16966267787914932}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.11920292202211755, 'Capsule_attract': 0.0010444839517733694, 'divides_attract': 0.008704032931444746, 'stop': 0}
+reward: 0.0
+nextV: 1.7460784591491956
+Qnew 1.571470613234276
+Qold 1.5578661594450325
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.8465508652600733, 'distanceToFood': -39.447548432149304, 'check_died': -1.5428497203845515, 'divides_attract': -29.292722310446432, 'Capsule_attract': -3.955304649174592, 'stop': 0.10724470058094088, 'CornerAvoid': 0.3480221494843806, 'bias': 1.925992165302488, 'defendersAvoid': -0.16945948011787557}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.5, 'Capsule_attract': 0.001131524281087817, 'divides_attract': 0.009139234578016983, 'stop': 0}
+reward: 0.0
+nextV: 2.734089470250609
+Qnew 2.460680523225548
+Qold 1.7504135199381943
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.8465508652600733, 'distanceToFood': -39.44717591449024, 'check_died': -1.5428497203845515, 'divides_attract': -29.29077492141961, 'Capsule_attract': -3.955063543866509, 'stop': 0.10724470058094088, 'CornerAvoid': 0.4545621999774837, 'bias': 2.1390722662886943, 'defendersAvoid': -0.15885084656224396}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.8807970779778823, 'divides_attract': 0.011489323469507063, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 1.1782269063425856
+Qnew 1.8604042157083271
+Qold 3.0415602833453304
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.49220404496897235, 'distanceToFood': -39.44717591449024, 'check_died': -1.5428497203845515, 'divides_attract': -29.294846126658328, 'Capsule_attract': -3.955063543866509, 'stop': 0.10724470058094088, 'CornerAvoid': 0.14245455607432822, 'bias': 1.7847254459975934, 'defendersAvoid': -0.1764927359300122}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'Capsule_attract': 0.0033124020372597516, 'divides_attract': 0.031231219208449082, 'stop': 1}
+reward: 0.0
+nextV: -1.107379328626748
+Qnew -0.9966413957640732
+Qold 0.5240597008881607
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.49220404496897235, 'distanceToFood': -39.453556478532136, 'check_died': -1.5428497203845515, 'divides_attract': -29.30909413144835, 'Capsule_attract': -3.9565746958896932, 'stop': -0.3489656284147293, 'CornerAvoid': -0.29211959971609736, 'bias': 1.3285151170019232, 'defendersAvoid': -0.23823409002010948}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.009004042266433903, 'divides_attract': 0.08489525565494824, 'stop': 1}
+reward: 0.0
+nextV: -0.6717526065600206
+Qnew -0.6045773459040186
+Qold -2.4705836083820403
+Blue team starts
+Red team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.5461980047459332, 'distanceToFood': -39.45428025435201, 'check_died': -1.4528479050096719, 'divides_attract': -29.234552054586814, 'Capsule_attract': -3.957098157373811, 'stop': -0.06909943413892239, 'CornerAvoid': 0.25761356489905685, 'bias': 1.7396612451658546, 'defendersAvoid': -0.071922097504068}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0024787521766663585, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.0066928509242848554, 'Capsule_attract': 5.200179391607745e-05, 'divides_attract': 0.00043334828263397873, 'stop': 0}
+reward: 0.0
+nextV: 1.6691993976446113
+Qnew 1.5022794578801502
+Qold 1.5903805893053742
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.5461980047459332, 'distanceToFood': -39.454372668126226, 'check_died': -1.4528479050096719, 'divides_attract': -29.234563508129014, 'Capsule_attract': -3.957099531798875, 'stop': -0.06909943413892239, 'CornerAvoid': 0.2574366705773899, 'bias': 1.7132309057382875, 'defendersAvoid': -0.07198761176545411}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0024787521766663585, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.04742587317756678, 'Capsule_attract': 5.633527674241724e-05, 'divides_attract': 0.0004550156967656777, 'stop': 0}
+reward: 0.0
+nextV: 2.311763107918168
+Qnew 2.0805867971263514
+Qold 1.6427603396042485
+Pacman: (x,y)=(40.0, 9.0), South
+North
+{'eat_food': 0.5461980047459332, 'distanceToFood': -39.45414303886529, 'check_died': -1.4528479050096719, 'divides_attract': -29.234503742755823, 'Capsule_attract': -3.9570921322764803, 'stop': -0.06909943413892239, 'CornerAvoid': 0.26366596119185787, 'bias': 1.8445788429949184, 'defendersAvoid': -0.0716620327800786}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.04742587317756678, 'Capsule_attract': 0.0003842441724909268, 'divides_attract': 0.0032020347707577236, 'stop': 0}
+reward: 0.0
+nextV: 1.7452636414843574
+Qnew 1.5707372773359216
+Qold 1.6226889593482825
+Pacman: (x,y)=(40.0, 10.0), North
+South
+{'eat_food': 0.5461980047459332, 'distanceToFood': -39.45419753363663, 'check_died': -1.4528479050096719, 'divides_attract': -29.234553648083484, 'Capsule_attract': -3.9570981209157994, 'stop': -0.06909943413892239, 'CornerAvoid': 0.262926805027114, 'bias': 1.82899333839121, 'defendersAvoid': -0.07194749125429882}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.2689414213699951, 'Capsule_attract': 0.000416264520198504, 'divides_attract': 0.0033621365092956095, 'stop': 0}
+reward: 0.0
+nextV: 2.4425231996140857
+Qnew 2.1982708796526773
+Qold 1.7294738532647955
+Pacman: (x,y)=(40.0, 9.0), South
+North
+{'eat_food': 0.5461980047459332, 'distanceToFood': -39.45395166107034, 'check_died': -1.4528479050096719, 'divides_attract': -29.234080800204122, 'Capsule_attract': -3.9570395778450216, 'stop': -0.06909943413892239, 'CornerAvoid': 0.3007504866103492, 'bias': 1.9696324463075745, 'defendersAvoid': -0.06937159614006898}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.2689414213699951, 'Capsule_attract': 0.002839201746222644, 'divides_attract': 0.023660014551855367, 'stop': 0}
+reward: 0.0
+nextV: 1.3727010191727975
+Qnew 1.2354309172555178
+Qold 1.20026379428604
+Pacman: (x,y)=(40.0, 10.0), North
+South
+{'eat_food': 0.5461980047459332, 'distanceToFood': -39.45391477247981, 'check_died': -1.4528479050096719, 'divides_attract': -29.23383118381176, 'Capsule_attract': -3.9570096238779384, 'stop': -0.06909943413892239, 'CornerAvoid': 0.30358785542142064, 'bias': 1.980182583198418, 'defendersAvoid': -0.06794379037576165}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'Capsule_attract': 0.0030758018917411978, 'divides_attract': 0.024843015279448138, 'stop': 0}
+reward: 0.0
+nextV: 1.8933671421172136
+Qnew 1.7040304279054923
+Qold 1.3855250292180923
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.5461980047459332, 'distanceToFood': -39.45374772419379, 'check_died': -1.4528479050096719, 'divides_attract': -29.231457393465906, 'Capsule_attract': -3.9567157260255947, 'stop': -0.06909943413892239, 'CornerAvoid': 0.37344168663653876, 'bias': 2.0757342028046377, 'defendersAvoid': -0.05501228487263679}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'divides_attract': 0.031231219208449082, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: -0.8538675524561634
+Qnew 0.03151920278945297
+Qold 2.0572839393249636
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': -0.061531416214719914, 'distanceToFood': -39.45374772419379, 'check_died': -1.4528479050096719, 'divides_attract': -29.25043752423135, 'Capsule_attract': -3.9567157260255947, 'stop': -0.06909943413892239, 'CornerAvoid': -0.2054656358793584, 'bias': 1.4680047818439848, 'defendersAvoid': -0.1372595181895694}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.017482517482517484, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.009004042266433903, 'divides_attract': 0.08489525565494824, 'stop': 1}
+reward: 0.0
+nextV: -0.6702228046070797
+Qnew -0.6032005241463718
+Qold -2.0619603365655768
+Blue team starts
+Blue team starts
+Red team starts
+Red team starts
+Blue team starts
+Red team starts
+Blue team starts
+Blue team starts
+Blue team starts
+Red team starts
+Blue team starts
+Blue team starts
+Red team starts
+Red team starts
+Blue team starts
+Red team starts
+Blue team starts
+Red team starts
+Blue team starts
+Blue team starts
+Blue team starts
+Red team starts
+Red team starts
+Blue team starts
+Red team starts
+Red team starts
+Red team starts
+Red team starts
+Blue team starts
+Red team starts
+Blue team starts
+Red team starts
+Red team starts
+Red team starts
+Red team starts
+Red team starts
+Red team starts
+Red team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.5396304596905996, 'distanceToFood': -39.523927729365404, 'check_died': -1.6622546253308053, 'divides_attract': -29.398976277410686, 'Capsule_attract': -4.017881509631352, 'stop': -0.053264884335888246, 'CornerAvoid': 0.22429103976527315, 'bias': 1.3026163477446846, 'defendersAvoid': -0.03289309763965054}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.5, 'Capsule_attract': 0.007717750514086203, 'divides_attract': 0.0, 'stop': 0}
+reward: 0.0
+nextV: 1.3853796790474777
+Qnew 1.24684171114273
+Qold 1.2334566146614763
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.5396304596905996, 'distanceToFood': -39.52391368905441, 'check_died': -1.6622546253308053, 'divides_attract': -29.398976277410686, 'Capsule_attract': -4.017850518780778, 'stop': -0.053264884335888246, 'CornerAvoid': 0.22629880423746118, 'bias': 1.3066318766890608, 'defendersAvoid': -0.031415867095585706}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.8807970779778823, 'Capsule_attract': 0.008360896390260053, 'divides_attract': 0.0, 'stop': 0}
+reward: 0.0
+nextV: 1.6409613633348066
+Qnew 1.476865227001326
+Qold 1.3917073674765459
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.5396304596905996, 'distanceToFood': -39.52386902584137, 'check_died': -1.6622546253308053, 'divides_attract': -29.398976277410686, 'Capsule_attract': -4.0176369199686865, 'stop': -0.053264884335888246, 'CornerAvoid': 0.24880084238834438, 'bias': 1.332179234546495, 'defendersAvoid': -0.02201751936358601}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'divides_attract': 0.014149209275824703, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: -0.6716532859944138
+Qnew 0.19551204260502764
+Qold 1.6920634918719497
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.09066502491052303, 'distanceToFood': -39.52386902584137, 'check_died': -1.6622546253308053, 'divides_attract': -29.405328783305002, 'Capsule_attract': -4.0176369199686865, 'stop': -0.053264884335888246, 'CornerAvoid': -0.19208940581605605, 'bias': 0.8832137997664182, 'defendersAvoid': -0.18718267261577423}
+{'bias': 1.0, 'check_died': 1, 'defendersAvoid': 1.0, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.9933071490757153, 'Capsule_attract': 0.024475524475524476, 'divides_attract': 0.038461538461538464, 'stop': 1}
+reward: -0.8
+nextV: -1.0515210476523902
+Qnew -1.7463689428871514
+Qold -2.9923815022933806
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.36323404077967625, 'distanceToFood': -39.488851200968185, 'check_died': -1.2884508575089364, 'divides_attract': -29.391645307250766, 'Capsule_attract': -4.008587782193865, 'stop': -0.06239780951379312, 'CornerAvoid': 0.179212549112845, 'bias': 1.5409656805128324, 'defendersAvoid': 0.18081280564565613}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.11920292202211755, 'Capsule_attract': 0.0010444839517733694, 'divides_attract': 0.006963226345155797, 'stop': 0}
+reward: 0.0
+nextV: 1.73419099426856
+Qnew 1.560771894841704
+Qold 1.293446441859336
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.36323404077967625, 'distanceToFood': -39.488710995311024, 'check_died': -1.2884508575089364, 'divides_attract': -29.391086872959683, 'Capsule_attract': -4.008504017050202, 'stop': -0.06239780951379312, 'CornerAvoid': 0.18877234165076034, 'bias': 1.6211633164075427, 'defendersAvoid': 0.18480561082688712}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.5, 'divides_attract': 0.009139234578016983, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 0.9580570006751472
+Qnew 1.6622513006076325
+Qold 1.8193724201587482
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.3160977049143415, 'distanceToFood': -39.488710995311024, 'check_died': -1.2884508575089364, 'divides_attract': -29.391517662990303, 'Capsule_attract': -4.008504017050202, 'stop': -0.06239780951379312, 'CornerAvoid': 0.16520417371809298, 'bias': 1.574026980542208, 'defendersAvoid': 0.18245883085054912}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.8807970779778823, 'Capsule_attract': 0.0012185646104022644, 'divides_attract': 0.00957443622458922, 'stop': 0}
+reward: 0.0
+nextV: 0.36317995979679263
+Qnew 0.32686196381711335
+Qold 0.8900409274946264
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.3160977049143415, 'distanceToFood': -39.49107398396981, 'check_died': -1.2884508575089364, 'divides_attract': -29.39313529931153, 'Capsule_attract': -4.008709898036541, 'stop': -0.06239780951379312, 'CornerAvoid': 0.016390258042363354, 'bias': 1.405073291438954, 'defendersAvoid': 0.1740471219801626}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'Capsule_attract': 0.0033124020372597516, 'divides_attract': 0.026026016007040905, 'stop': 1}
+reward: 0.0
+nextV: -1.2450661202146531
+Qnew -1.1205595081931878
+Qold 0.051255752525406977
+Pacman: (x,y)=(40.0, 8.0), South
+North
+{'eat_food': 0.3160977049143415, 'distanceToFood': -39.49599069135744, 'check_died': -1.2884508575089364, 'divides_attract': -29.40228460413136, 'Capsule_attract': -4.00987435501361, 'stop': -0.41394238772937153, 'CornerAvoid': -0.31848201159050193, 'bias': 1.0535287132233757, 'defendersAvoid': 0.12647073691706173}
+{'bias': 1.0, 'check_died': 1, 'defendersAvoid': 1.0, 'eat_food': 0, 'distanceToFood': 0.012237762237762238, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'Capsule_attract': 0.022727272727272728, 'divides_attract': 0.18356643356643357, 'stop': 0}
+reward: -4.0
+nextV: -1.0179393300296398
+Qnew -4.916145397026676
+Qold -6.38357770644782
+Blue team starts
+Blue team starts
+Red team starts
+Red team starts
+Red team starts
+Blue team starts
+Blue team starts
+Blue team starts
+Red team starts
+Blue team starts
+Red team starts
+Red team starts
+Red team starts
+Blue team starts
+Red team starts
+Blue team starts
+Red team starts
+Red team starts
+Red team starts
+Red team starts
+Red team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.6206121514005559, 'distanceToFood': -39.56931403193679, 'check_died': -1.8843968715169295, 'divides_attract': -29.39086495321349, 'Capsule_attract': -4.078418563398112, 'stop': -0.0070191636330874455, 'CornerAvoid': 0.10086940365486008, 'bias': 1.636765490462561, 'defendersAvoid': 0.30266810386799}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.04742587317756678, 'Capsule_attract': 0.0003842441724909268, 'divides_attract': 0.0032020347707577236, 'stop': 0}
+reward: 0.0
+nextV: 1.4997460874689335
+Qnew 1.34977147872204
+Qold 1.4130609447456666
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.6206121514005559, 'distanceToFood': -39.56938041948857, 'check_died': -1.8843968715169295, 'divides_attract': -29.39092574973474, 'Capsule_attract': -4.078425858980662, 'stop': -0.0070191636330874455, 'CornerAvoid': 0.09996893619812634, 'bias': 1.617778650655473, 'defendersAvoid': 0.3023203477664451}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.2689414213699951, 'Capsule_attract': 0.000416264520198504, 'divides_attract': 0.0033621365092956095, 'stop': 0}
+reward: 0.0
+nextV: 2.192784929400651
+Qnew 1.973506436460586
+Qold 1.4805103817837075
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.6206121514005559, 'distanceToFood': -39.56912185512422, 'check_died': -1.8843968715169295, 'divides_attract': -29.390428493724432, 'Capsule_attract': -4.078364293950814, 'stop': -0.0070191636330874455, 'CornerAvoid': 0.1397450541005062, 'bias': 1.7656774670585365, 'defendersAvoid': 0.30502920907975484}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'divides_attract': 0.004226685897400195, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 1.0008716668768722
+Qnew 1.700784500189185
+Qold 2.3698141342914285
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.41990326116988286, 'distanceToFood': -39.56912185512422, 'check_died': -1.8843968715169295, 'divides_attract': -29.391276827160254, 'Capsule_attract': -4.078364293950814, 'stop': -0.0070191636330874455, 'CornerAvoid': -0.006984901909935309, 'bias': 1.5649685768278634, 'defendersAvoid': 0.30135309752453127}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.8807970779778823, 'Capsule_attract': 0.0012185646104022644, 'divides_attract': 0.011489323469507063, 'stop': 1}
+reward: 0.0
+nextV: 0.1072305998834113
+Qnew 0.09650753989507017
+Qold 0.6707306905457971
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.41990326116988286, 'distanceToFood': -39.57153118302905, 'check_died': -1.8843968715169295, 'divides_attract': -29.393256057816707, 'Capsule_attract': -4.078574212353771, 'stop': -0.1792861088283055, 'CornerAvoid': -0.15871712387005937, 'bias': 1.3927016316326453, 'defendersAvoid': 0.2927764313465739}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'Capsule_attract': 0.0033124020372597516, 'divides_attract': 0.031231219208449082, 'stop': 1}
+reward: 0.0
+nextV: -1.920260082327625
+Qnew -1.7282340740948625
+Qold -0.383096410912353
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.41990326116988286, 'distanceToFood': -39.57717511728017, 'check_died': -1.8843968715169295, 'divides_attract': -29.405859144584024, 'Capsule_attract': -4.079910903374547, 'stop': -0.5828274077830584, 'CornerAvoid': -0.5431201243586736, 'bias': 0.9891603326778924, 'defendersAvoid': 0.23816305535486182}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.013986013986013986, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.009004042266433903, 'divides_attract': 0.08489525565494824, 'stop': 1}
+reward: 0.0
+nextV: -1.0173747694219768
+Qnew -0.9156372924797791
+Qold -3.1260837799281895
+Red team starts
+Blue team starts
+Red team starts
+Time is up.
+The Red team wins by 4 points.
+Blue team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.04742587317756678, 'Capsule_attract': 0.0003842441724909268, 'divides_attract': 0.018571801670394794, 'stop': 0}
+reward: 0.0
+nextV: 1.3468084542367726
+Qnew 1.2121276088130954
+Qold 1.2810403844798106
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.2689414213699951, 'Capsule_attract': 0.000416264520198504, 'divides_attract': 0.019500391753914537, 'stop': 0}
+reward: 0.0
+nextV: 1.9357995645945145
+Qnew 1.7422196081350632
+Qold 1.3468084542367726
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'divides_attract': 0.021133429487000976, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: -3.3355223219769035
+Qnew -2.2019700897792127
+Qold 1.9357995645945145
+Pacman: (x,y)=(40.0, 8.0), South
+North
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.026223776223776224, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'Capsule_attract': 0.0030758018917411978, 'divides_attract': 0.14905809167668882, 'stop': 0}
+reward: 0.0
+nextV: -3.5895092299677684
+Qnew -3.2305583069709916
+Qold -3.3355223219769035
+Pacman: (x,y)=(40.0, 9.0), North
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.027972027972027972, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'Capsule_attract': 0.0033124020372597516, 'divides_attract': 0.15615609604224542, 'stop': 0}
+reward: 0.0
+nextV: -16.386393477638585
+Qnew -14.747754129874727
+Qold -3.5895092299677684
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.027972027972027972, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.009004042266433903, 'divides_attract': 0.42447627827474116, 'stop': 1}
+reward: 0.0
+nextV: -0.674176721914693
+Qnew -0.6067590497232237
+Qold -16.386393477638585
+Time is up.
+The Blue team wins by 26 points.
+Red team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.11920292202211755, 'Capsule_attract': 0.0010444839517733694, 'divides_attract': 0.05048339100237952, 'stop': 0}
+reward: 0.0
+nextV: 0.3985395020361471
+Qnew 0.35868555183253237
+Qold 0.36249629001661066
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.5, 'Capsule_attract': 0.001131524281087817, 'divides_attract': 0.0530075605524985, 'stop': 0}
+reward: 0.0
+nextV: 0.8995084491706169
+Qnew 0.8095576042535553
+Qold 0.3985395020361471
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.8807970779778823, 'divides_attract': 0.057446617347535325, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: -8.589509229967769
+Qnew -6.930558306970992
+Qold 0.8995084491706169
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.027972027972027972, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'Capsule_attract': 0.0033124020372597516, 'divides_attract': 0.15615609604224542, 'stop': 1}
+reward: 0.0
+nextV: -16.386393477638585
+Qnew -14.747754129874727
+Qold -8.589509229967769
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.027972027972027972, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.009004042266433903, 'divides_attract': 0.42447627827474116, 'stop': 1}
+reward: 0.0
+nextV: -0.6741767219145609
+Qnew -0.6067590497231048
+Qold -16.386393477638585
+Pacman: (x,y)=(38.0, 6.0), South
+East
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.01798620996209156, 'divides_attract': 0.0035810067967167515, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 2.367215147478299
+Qnew 2.930493632730469
+Qold 2.3686910140176907
+Pacman: (x,y)=(39.0, 6.0), East
+East
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.11920292202211755, 'divides_attract': 0.004005073391064788, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 2.395268380100032
+Qnew 2.9557415420900286
+Qold 2.367215147478299
+Pacman: (x,y)=(40.0, 6.0), East
+East
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.5, 'divides_attract': 0.004452699240654382, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 1.538425347056509
+Qnew 2.1845828123508584
+Qold 2.395268380100032
+Pacman: (x,y)=(40.0, 6.0), West
+West
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 6.14421235332821e-06, 'eat_food': 0, 'distanceToFood': 0.005244755244755245, 'inTunnel': 1, 'CornerAvoid': 1.670142184809518e-05, 'divides_attract': 3.6736374560109227e-06, 'stop': 0, 'Capsule_attract': 0.0}
+reward: 0.0
+nextV: 1.814263142566288
+Qnew 1.6328368283096593
+Qold 1.7457531304646499
+Time is up.
+The Blue team wins by 2 points.
+Red team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.11920292202211755, 'Capsule_attract': 0.0010444839517733694, 'divides_attract': 0.05048339100237952, 'stop': 0}
+reward: 0.0
+nextV: 0.3985395020361471
+Qnew 0.35868555183253237
+Qold 0.36249629001661066
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.5, 'Capsule_attract': 0.001131524281087817, 'divides_attract': 0.0530075605524985, 'stop': 0}
+reward: 0.0
+nextV: 0.8995084491706169
+Qnew 0.8095576042535553
+Qold 0.3985395020361471
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.8807970779778823, 'divides_attract': 0.057446617347535325, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: -8.589509229967769
+Qnew -6.930558306970992
+Qold 0.8995084491706169
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.027972027972027972, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'Capsule_attract': 0.0033124020372597516, 'divides_attract': 0.15615609604224542, 'stop': 1}
+reward: 0.0
+nextV: -16.386393477638585
+Qnew -14.747754129874727
+Qold -8.589509229967769
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.027972027972027972, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.009004042266433903, 'divides_attract': 0.42447627827474116, 'stop': 1}
+reward: 0.0
+nextV: -0.6741767219145609
+Qnew -0.6067590497231048
+Qold -16.386393477638585
+Time is up.
+The Blue team wins by 25 points.
+Red team starts
+Time is up.
+The Red team wins by 4 points.
+Red team starts
+Time is up.
+The Red team wins by 4 points.
+Red team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.11920292202211755, 'Capsule_attract': 0.0010444839517733694, 'divides_attract': 0.05048339100237952, 'stop': 0}
+reward: 0.0
+nextV: 0.3985395020361471
+Qnew 0.35868555183253237
+Qold 0.36249629001661066
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.5, 'Capsule_attract': 0.001131524281087817, 'divides_attract': 0.0530075605524985, 'stop': 0}
+reward: 0.0
+nextV: 0.8995084491706169
+Qnew 0.8095576042535553
+Qold 0.3985395020361471
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.8807970779778823, 'divides_attract': 0.057446617347535325, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: -8.589509229967769
+Qnew -6.930558306970992
+Qold 0.8995084491706169
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.027972027972027972, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'Capsule_attract': 0.0033124020372597516, 'divides_attract': 0.15615609604224542, 'stop': 1}
+reward: 0.0
+nextV: -16.386393477638585
+Qnew -14.747754129874727
+Qold -8.589509229967769
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.027972027972027972, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.009004042266433903, 'divides_attract': 0.42447627827474116, 'stop': 1}
+reward: 0.0
+nextV: -0.6741767219145609
+Qnew -0.6067590497231048
+Qold -16.386393477638585
+Time is up.
+The Blue team wins by 26 points.
+Blue team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.04742587317756678, 'Capsule_attract': 0.0003842441724909268, 'divides_attract': 0.018571801670394794, 'stop': 0}
+reward: 0.0
+nextV: 1.3468084542367726
+Qnew 1.2121276088130954
+Qold 1.2810403844798106
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.2689414213699951, 'Capsule_attract': 0.000416264520198504, 'divides_attract': 0.019500391753914537, 'stop': 0}
+reward: 0.0
+nextV: 1.9357995645945145
+Qnew 1.7422196081350632
+Qold 1.3468084542367726
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'divides_attract': 0.021133429487000976, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: -3.3355223219769035
+Qnew -2.2019700897792127
+Qold 1.9357995645945145
+Pacman: (x,y)=(40.0, 8.0), South
+North
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.026223776223776224, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'Capsule_attract': 0.0030758018917411978, 'divides_attract': 0.14905809167668882, 'stop': 0}
+reward: 0.0
+nextV: -3.5895092299677684
+Qnew -3.2305583069709916
+Qold -3.3355223219769035
+Pacman: (x,y)=(40.0, 9.0), North
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.027972027972027972, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'Capsule_attract': 0.0033124020372597516, 'divides_attract': 0.15615609604224542, 'stop': 0}
+reward: 0.0
+nextV: -16.386393477638585
+Qnew -14.747754129874727
+Qold -3.5895092299677684
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.027972027972027972, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.009004042266433903, 'divides_attract': 0.42447627827474116, 'stop': 1}
+reward: 0.0
+nextV: -0.6741767219145609
+Qnew -0.6067590497231048
+Qold -16.386393477638585
+Time is up.
+The Blue team wins by 16 points.
+Red team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.11920292202211755, 'Capsule_attract': 0.0010444839517733694, 'divides_attract': 0.05048339100237952, 'stop': 0}
+reward: 0.0
+nextV: 0.3985395020361471
+Qnew 0.35868555183253237
+Qold 0.36249629001661066
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.5, 'Capsule_attract': 0.001131524281087817, 'divides_attract': 0.0530075605524985, 'stop': 0}
+reward: 0.0
+nextV: 0.8995084491706169
+Qnew 0.8095576042535553
+Qold 0.3985395020361471
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.8807970779778823, 'divides_attract': 0.057446617347535325, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: -8.589509229967769
+Qnew -6.930558306970992
+Qold 0.8995084491706169
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.027972027972027972, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'Capsule_attract': 0.0033124020372597516, 'divides_attract': 0.15615609604224542, 'stop': 1}
+reward: 0.0
+nextV: -16.386393477638585
+Qnew -14.747754129874727
+Qold -8.589509229967769
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.027972027972027972, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.009004042266433903, 'divides_attract': 0.42447627827474116, 'stop': 1}
+reward: 0.0
+nextV: -0.6741767219145609
+Qnew -0.6067590497231048
+Qold -16.386393477638585
+Pacman: (x,y)=(38.0, 6.0), North
+East
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.01798620996209156, 'divides_attract': 0.004923884345485533, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 2.3258283731330787
+Qnew 2.893245535819771
+Qold 2.329373578389731
+Pacman: (x,y)=(39.0, 6.0), East
+East
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.11920292202211755, 'divides_attract': 0.005418628705558243, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 2.3518122670375505
+Qnew 2.9166310403337956
+Qold 2.3258283731330787
+Pacman: (x,y)=(40.0, 6.0), East
+East
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.5, 'divides_attract': 0.005936932320872509, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 1.4001377177458172
+Qnew 2.0601239459712355
+Qold 2.3518122670375505
+Pacman: (x,y)=(40.0, 6.0), West
+West
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 6.14421235332821e-06, 'eat_food': 0, 'distanceToFood': 0.008741258741258742, 'inTunnel': 1, 'CornerAvoid': 1.670142184809518e-05, 'divides_attract': 4.8981832746812305e-06, 'stop': 0, 'Capsule_attract': 0.0}
+reward: 0.0
+nextV: 1.6757245375527952
+Qnew 1.5081520837975158
+Qold 1.6074296482934771
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0024787521766663585, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.0066928509242848554, 'divides_attract': 0.0025134200392770765, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 1.812846207376835
+Qnew 2.431561586639152
+Qold 2.3972769338937163
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0024787521766663585, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.04742587317756678, 'divides_attract': 0.002639091041240931, 'stop': 0, 'Capsule_attract': 0.0}
+reward: 0.0
+nextV: 2.4154722496089516
+Qnew 2.1739250246480566
+Qold 1.812846207376835
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.0024787521766663585, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.2689414213699951, 'divides_attract': 0.00286009866538426, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 1.1905345520908635
+Qnew 1.8714810968817772
+Qold 2.4154722496089516
+Pacman: (x,y)=(40.0, 8.0), South
+North
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.005244755244755245, 'inTunnel': 1, 'CornerAvoid': 0.2689414213699951, 'divides_attract': 0.020172819055773658, 'stop': 0, 'Capsule_attract': 0.0}
+reward: 0.0
+nextV: 1.1432141600343941
+Qnew 1.0288927440309548
+Qold 1.1905345520908635
+Pacman: (x,y)=(40.0, 9.0), North
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.006993006993006993, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'divides_attract': 0.021133429487000976, 'stop': 0, 'Capsule_attract': 0.0}
+reward: 0.0
+nextV: -2.493224897860396
+Qnew -2.2439024080743564
+Qold 1.1432141600343941
+Pacman: (x,y)=(40.0, 8.0), South
+North
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.005244755244755245, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'divides_attract': 0.14905809167668882, 'stop': 0, 'Capsule_attract': 0.0}
+reward: 0.0
+nextV: -2.7462447559856957
+Qnew -2.471620280387126
+Qold -2.493224897860396
+Pacman: (x,y)=(40.0, 9.0), North
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.006993006993006993, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'divides_attract': 0.15615609604224542, 'stop': 0, 'Capsule_attract': 0.0}
+reward: 0.0
+nextV: -15.519865704699493
+Qnew -13.967879134229543
+Qold -2.7462447559856957
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.006993006993006993, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'divides_attract': 0.42447627827474116, 'stop': 1, 'Capsule_attract': 0.0}
+reward: 0.0
+nextV: -0.6050329072592149
+Qnew -0.5445296165332935
+Qold -15.519865704699493
+Time is up.
+The Blue team wins by 25 points.
+Blue team starts
+Pacman: (x,y)=(40.0, 11.0), East
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.0034965034965034965, 'inTunnel': 1, 'CornerAvoid': 0.04742587317756678, 'Capsule_attract': 0.0003842441724909268, 'divides_attract': 0.018571801670394794, 'stop': 0}
+reward: 0.0
+nextV: 1.3468084542367726
+Qnew 1.2121276088130954
+Qold 1.2810403844798106
+Pacman: (x,y)=(40.0, 10.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 0, 'distanceToFood': 0.0017482517482517483, 'inTunnel': 1, 'CornerAvoid': 0.2689414213699951, 'Capsule_attract': 0.000416264520198504, 'divides_attract': 0.019500391753914537, 'stop': 0}
+reward: 0.0
+nextV: 1.9357995645945145
+Qnew 1.7422196081350632
+Qold 1.3468084542367726
+Pacman: (x,y)=(40.0, 9.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.01831563888873418, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'divides_attract': 0.021133429487000976, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: -3.3355223219769035
+Qnew -2.2019700897792127
+Qold 1.9357995645945145
+Pacman: (x,y)=(40.0, 8.0), South
+North
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.026223776223776224, 'inTunnel': 1, 'CornerAvoid': 0.7310585786300049, 'Capsule_attract': 0.0030758018917411978, 'divides_attract': 0.14905809167668882, 'stop': 0}
+reward: 0.0
+nextV: -3.5895092299677684
+Qnew -3.2305583069709916
+Qold -3.3355223219769035
+Pacman: (x,y)=(40.0, 9.0), North
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.027972027972027972, 'inTunnel': 1, 'CornerAvoid': 0.9525741268224334, 'Capsule_attract': 0.0033124020372597516, 'divides_attract': 0.15615609604224542, 'stop': 0}
+reward: 0.0
+nextV: -16.386393477638585
+Qnew -14.747754129874727
+Qold -3.5895092299677684
+Pacman: (x,y)=(40.0, 8.0), South
+Stop
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.027972027972027972, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'Capsule_attract': 0.009004042266433903, 'divides_attract': 0.42447627827474116, 'stop': 1}
+reward: 0.0
+nextV: -0.6741767219145633
+Qnew -0.606759049723107
+Qold -16.386393477638585
+Pacman: (x,y)=(38.0, 6.0), North
+East
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.11920292202211755, 'divides_attract': 0.03638285765343904, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 1.3680314003239267
+Qnew 2.031228260291534
+Qold 1.4339055749129237
+Pacman: (x,y)=(39.0, 6.0), East
+East
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.5, 'divides_attract': 0.04003855148464583, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 1.2970604057784196
+Qnew 1.9673543652005778
+Qold 1.3680314003239267
+Pacman: (x,y)=(40.0, 6.0), East
+East
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.8807970779778823, 'divides_attract': 0.043868325974481516, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 1.4001377177458172
+Qnew 2.0601239459712355
+Qold 1.2970604057784196
+Pacman: (x,y)=(41.0, 6.0), West
+West
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 2.2603294069810542e-06, 'eat_food': 0, 'distanceToFood': 0.01048951048951049, 'inTunnel': 1, 'CornerAvoid': 4.5397868702434395e-05, 'divides_attract': 1.8967799219421432e-06, 'stop': 0, 'Capsule_attract': 0.0}
+reward: 0.0
+nextV: 1.607189924781035
+Qnew 1.4464709323029317
+Qold 1.5383754889985004
+Pacman: (x,y)=(40.0, 6.0), West
+West
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 1.670170079024566e-05, 'eat_food': 0, 'distanceToFood': 0.008741258741258742, 'inTunnel': 1, 'CornerAvoid': 4.5397868702434395e-05, 'divides_attract': 1.3314642588028008e-05, 'stop': 0, 'Capsule_attract': 0.0}
+reward: 0.0
+nextV: 1.6740261210994578
+Qnew 1.5066235089895121
+Qold 1.607189924781035
+Pacman: (x,y)=(40.0, 11.0), East
+East
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.01798620996209156, 'divides_attract': 0.006832184020051698, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 2.2671971094773498
+Qnew 2.8404773985296146
+Qold 2.2735014330236836
+Pacman: (x,y)=(41.0, 11.0), East
+East
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.11920292202211755, 'divides_attract': 0.007421165401090637, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 2.2904218850921403
+Qnew 2.861379696582927
+Qold 2.2671971094773498
+Pacman: (x,y)=(42.0, 11.0), East
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.5, 'divides_attract': 0.008033706037371134, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 2.3129568811345105
+Qnew 2.88166119302106
+Qold 2.2904218850921403
+Pacman: (x,y)=(42.0, 10.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.8807970779778823, 'divides_attract': 0.008669805928893189, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: 2.3045832188709157
+Qnew 2.8741248969838242
+Qold 2.3129568811345105
+Pacman: (x,y)=(42.0, 9.0), South
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.006737946999085467, 'eat_food': 1, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'divides_attract': 0.0093294650756568, 'stop': 0, 'distanceToFood': 0.0, 'Capsule_attract': 0.0}
+reward: 0.8
+nextV: -0.2035731921279338
+Qnew 0.6167841270848596
+Qold 2.3045832188709157
+Pacman: (x,y)=(42.0, 8.0), South
+North
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.008741258741258742, 'inTunnel': 1, 'CornerAvoid': 0.9820137900379085, 'divides_attract': 0.06606360994966562, 'stop': 0, 'Capsule_attract': 0.0}
+reward: 0.0
+nextV: -0.35513772590466597
+Qnew -0.3196239533141994
+Qold -0.2035731921279338
+Pacman: (x,y)=(42.0, 9.0), North
+South
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.049787068367863944, 'eat_food': 0, 'distanceToFood': 0.01048951048951049, 'inTunnel': 1, 'CornerAvoid': 0.9975273768433653, 'divides_attract': 0.06893594081704238, 'stop': 0, 'Capsule_attract': 0.0}
+reward: 0.0
+nextV: -8.793907901076006
+Qnew -7.914517110968405
+Qold -0.35513772590466597
+Pacman: (x,y)=(42.0, 8.0), South
+Stop
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.1353352832366127, 'eat_food': 0, 'distanceToFood': 0.01048951048951049, 'inTunnel': 1, 'CornerAvoid': 0.9990889488055994, 'divides_attract': 0.18738731525069452, 'stop': 1, 'Capsule_attract': 0.0}
+reward: 0.0
+nextV: -18.141850959966668
+Qnew -16.32766586397
+Qold -8.793907901076006
+Pacman: (x,y)=(42.0, 8.0), South
+Stop
+{'eat_food': 0.5160101459387367, 'distanceToFood': -39.550261982857876, 'check_died': -1.9507860520744682, 'divides_attract': -29.278496512215572, 'Capsule_attract': -4.08727502447775, 'stop': -5.0, 'CornerAvoid': 0.10808655548588508, 'bias': 1.9532882349885847, 'defendersAvoid': 0.3406171965324117}
+{'bias': 1.0, 'check_died': 0, 'defendersAvoid': 0.36787944117144233, 'eat_food': 0, 'distanceToFood': 0.01048951048951049, 'inTunnel': 1, 'CornerAvoid': 0.9996646498695336, 'divides_attract': 0.5093715339296894, 'stop': 1, 'Capsule_attract': 0.0}
+reward: 0.0
+nextV: -0.6741767219145607
+Qnew -0.6067590497231047
+Qold -18.141850959966668
+Time is up.
+The Blue team wins by 26 points.
+Average Score: -13.4
+Scores:        4, -26, -2, -25, 4, 4, -26, -16, -25, -26
+Red Win Rate:  3/10 (0.30)
+Blue Win Rate: 7/10 (0.70)
+Record:        Red, Blue, Blue, Blue, Red, Red, Blue, Blue, Blue, Blue
+
+D:\WORKPLACE\Vscode_related\python\workplace\pacman\JustTry>
